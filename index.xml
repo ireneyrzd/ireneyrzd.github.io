@@ -6,7 +6,7 @@
     <description>Recent content on Irene&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 12 Jun 2021 12:00:00 +0000</lastBuildDate><atom:link href="https://ireneyrzd.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 14 Jun 2021 12:00:00 +0000</lastBuildDate><atom:link href="https://ireneyrzd.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Download original template</title>
       <link>https://ireneyrzd.github.io/home/downloads/download1/</link>
@@ -30,12 +30,24 @@ Competition Math
     </item>
     
     <item>
-      <title>...</title>
-      <link>https://ireneyrzd.github.io/post/vivamus-lacus-mauris/</link>
-      <pubDate>Sat, 12 Jun 2021 12:00:00 +0000</pubDate>
+      <title>Favorite Holiday</title>
+      <link>https://ireneyrzd.github.io/post/favorite-holiday/</link>
+      <pubDate>Mon, 14 Jun 2021 12:00:00 +0000</pubDate>
       
-      <guid>https://ireneyrzd.github.io/post/vivamus-lacus-mauris/</guid>
-      <description></description>
+      <guid>https://ireneyrzd.github.io/post/favorite-holiday/</guid>
+      <description>Halloween
+ U can reflect ur fav character With friendsm, school spirit Brother   </description>
+    </item>
+    
+    <item>
+      <title>git learning push</title>
+      <link>https://ireneyrzd.github.io/post/git-learning-push/</link>
+      <pubDate>Mon, 14 Jun 2021 12:00:00 +0000</pubDate>
+      
+      <guid>https://ireneyrzd.github.io/post/git-learning-push/</guid>
+      <description>To push changes of website from .md to github through git First time:
+1. git init 2. git add . 3. git status 4. git commit -m &amp;quot;first commit&amp;quot; 5. git branch -M main 6. git remote add origin https://github.com/ireneyrzd/Homepage.git 7. git push -u origin main After origin and main has been initialized:
+1. git status 2. git add &amp;lt;file&amp;gt; 3. git rm &amp;lt;file&amp;gt; 4. git status 5. git commit -m &amp;quot;commit comment&amp;quot; 6.</description>
     </item>
     
     <item>
