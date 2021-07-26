@@ -18,6 +18,16 @@ Below are some of my project brainstorm ideas as well as how they can fulfill th
     </item>
     
     <item>
+      <title>Git Learning(2) - Hugo and Rebase</title>
+      <link>https://ireneyrzd.github.io/post/git-learning2-hugo-and-rebase/</link>
+      <pubDate>Fri, 25 Jun 2021 12:00:00 +0000</pubDate>
+      
+      <guid>https://ireneyrzd.github.io/post/git-learning2-hugo-and-rebase/</guid>
+      <description>What is Hugo? Hugo provides sample website templates, which include intructions in simple English language in how to fill in different sections. Once that is complete, Hugo will automatically generate the html code for the website using the template. The website can then be published using a url domain such as one from github.
+How?** Once template has been filled out, the static page can be build using code below:</description>
+    </item>
+    
+    <item>
       <title>Hidden Figure Reflection</title>
       <link>https://ireneyrzd.github.io/post/hidden-figure-reflection/</link>
       <pubDate>Tue, 15 Jun 2021 12:00:00 +0000</pubDate>
@@ -38,14 +48,14 @@ Halloween
     </item>
     
     <item>
-      <title>Git Learning Push</title>
-      <link>https://ireneyrzd.github.io/post/git-learning-push/</link>
+      <title>Git Learning(1) - Push</title>
+      <link>https://ireneyrzd.github.io/post/git-learning1-push/</link>
       <pubDate>Mon, 14 Jun 2021 12:00:00 +0000</pubDate>
       
-      <guid>https://ireneyrzd.github.io/post/git-learning-push/</guid>
-      <description>To push changes of website from .md to github through git First time:
+      <guid>https://ireneyrzd.github.io/post/git-learning1-push/</guid>
+      <description>What is Hugo? To push changes of website from .md to github through git First time:
 1. git init 2. git add . 3. git status 4. git commit -m &amp;quot;first commit&amp;quot; 5. git branch -M main 6. git remote add origin https://github.com/ireneyrzd/Homepage.git 7. git push -u origin main After origin and main has been initialized:
-1. git status 2. git add &amp;lt;file&amp;gt; 3. git rm &amp;lt;file&amp;gt; 4. git status 5. git commit -m &amp;quot;commit comment&amp;quot; 6.</description>
+1. git status 2. git add &amp;lt;file&amp;gt; 3. git rm &amp;lt;file&amp;gt; 4. git status 5.</description>
     </item>
     
   </channel>

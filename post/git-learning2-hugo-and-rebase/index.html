@@ -6,7 +6,7 @@
   	<meta name="description" content="">
   	<meta name="author"      content="map[]">
     
-    	<title>Tags</title>
+    	<title>Git Learning(2) - Hugo and Rebase</title>
 	<link rel="shortcut icon" href="https://ireneyrzd.github.io/images/gt_favicon.png">
 
 	
@@ -89,20 +89,86 @@
 <main id="main">
 
 	<div class="container">
+
 		<div class="row topspace">
 			<div class="col-sm-8 col-sm-offset-2">
 
-        
+ 				<article class="post">
+					<header class="entry-header">
+ 						<div class="entry-meta">
+               <span class="posted-on">
+                  <time class="entry-date published" datetime="June 60, 25256">June 25, 2021</time>
+               </span>
+ 						</div>
+ 						<h1 class="entry-title"><a href="https://ireneyrzd.github.io/post/git-learning2-hugo-and-rebase/" rel="bookmark">Git Learning(2) - Hugo and Rebase</a></h1>
+					</header>
+					<div class="entry-content">
+						<h2 id="what-is-hugo">What is Hugo?</h2>
+<p>Hugo provides sample website templates, which include intructions in simple English language in how to fill in different sections. Once that is complete, Hugo will automatically generate the html code for the website using the template. The website can then be published using a url domain such as one from github.</p>
+<h4 id="how">How?**</h4>
+<p>Once template has been filled out, the static page can be build using code below:</p>
+<p>First time: make sure a folder has been created to store the generated HTML code. A new repo can be created following the instruction in my earlier post (Git Learning(1))</p>
+<p>To update to the folder:</p>
+<pre><code>hugo -d ../ireneyrzd.github.io/
+</code></pre><p>** How to download template: <a href="https://gohugo.io/getting-started/quick-start/">https://gohugo.io/getting-started/quick-start/</a></p>
+<h2 id="git-rebase">Git rebase</h2>
+<h4 id="why">Why?</h4>
+<p>To pull commits from remote to local, re-settup the basepoint of the local workspace to the newest commit, then resolve the conflict between the two versions.</p>
+<h4 id="command">Command</h4>
+<p>1). Git fetch</p>
+<pre><code>git fetch https://github.com/ireneyrzd/Homepage.git
+or
+git fetch origin
+</code></pre><p>We use <em>fetch</em> instead of <em>clone</em> because we do not wish a new folder to be made in local finder, or <em>pull</em> because pull is equal to <em>git fetch + git merge</em>. Instead, we want it pulled to the local origin. I will further elaborate upon the differences between git fetch and git pull in a future post.</p>
+<p>2). Git rebase</p>
+<pre><code>git rebase origin/main
+</code></pre><p>3). Resolve conflict
+After rebasing, the terminal will show:</p>
+<pre><code>Auto-merging config.toml
+CONFLICT (content): Merge conflict in config.toml
+error: could not apply 4007edc... Change Fav Holiday
+Resolve all conflicts manually, mark them as resolved with
+&quot;git add/rm &lt;conflicted_files&gt;&quot;, then run &quot;git rebase --continue&quot;.
+You can instead skip this commit: run &quot;git rebase --skip&quot;.
+To abort and get back to the state before &quot;git rebase&quot;, run &quot;git rebase --abort&quot;.
+</code></pre><p>Open the files with conflicting changes in a text editor, choose whether to keep &ldquo;Their changes&rdquo; or &ldquo;My changes&rdquo;.
+Once finished, run</p>
+<pre><code>git add/rm  &lt;conflicted_files&gt;
+git rebase --continue
+</code></pre><p>4). To check that rebasing worked, review:</p>
+<pre><code>git log
+</code></pre><p>5). Finally, commit the changes, and push to github rep, and the website is generated at Settings/Pages</p>
+<pre><code>git status
+git push
+</code></pre><h3 id="check-origin">Check origin</h3>
+<pre><code>git remote get-url origin
+</code></pre>
+					</div>
+				</article>
+
 			</div>
-		</div>
+		</div> 
 
-		<center class="">
-			<ul class="pagination">
-        
+		<div class="row">
+			<div class="col-sm-8 col-sm-offset-2">
 
+				<div id="share">
+					
+				</div>
+			</div>
+		</div> 
+		<div class="clearfix"></div>
 
-			</ul>
-		</center>
+		<div class="row">
+			<div class="col-sm-8 col-sm-offset-2">
+
+				<div id="comments">
+					
+				</div>
+			</div>
+		</div> 
+		<div class="clearfix"></div>
+
 	</div>	
 
 </main>
