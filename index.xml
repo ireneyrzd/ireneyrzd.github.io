@@ -6,7 +6,7 @@
     <description>Recent content on Irene&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 14 Jun 2021 12:00:00 +0000</lastBuildDate><atom:link href="https://ireneyrzd.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 25 Jul 2021 12:00:00 +0000</lastBuildDate><atom:link href="https://ireneyrzd.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Download original template</title>
       <link>https://ireneyrzd.github.io/home/downloads/download1/</link>
@@ -23,10 +23,29 @@
       
       <guid>https://ireneyrzd.github.io/about/</guid>
       <description>Education Basis Independent Silicon Valley Sophomore | 9th Grade GPA: 4, Weighted GPA: 4.75
-Project Highlights Asia Hate Crime Heat Map March 2021 Collect crime rate data in CA counties, and predict the possibility of crime in given areas with Python and google CoLab.
+Project Highlights Asia Hate Crime Heat Map March 2021 Collect crime rate data in CA counties, and predict the possibility of crime in given areas with Python and Google Colab.
 Skills Languages: Java, JavaScript, Python
 Competition Math
  AIME qualified 1st place mixer round at Yale Girls Math 2021 8th individual at Math League 2020 4th place team at Stanford Math Tournament 2019  Hobbies Piano</description>
+    </item>
+    
+    <item>
+      <title>Music and Machine Learning Brainstorm</title>
+      <link>https://ireneyrzd.github.io/post/music-generation-brainstorm/</link>
+      <pubDate>Sun, 25 Jul 2021 12:00:00 +0000</pubDate>
+      
+      <guid>https://ireneyrzd.github.io/post/music-generation-brainstorm/</guid>
+      <description>My favorite hobbies revolve around music as I enjoy playing the piano, the flute, and dancing. Additionally, I enjoy building both tangible and virtual projects. In the future, I would like to major in Computer Science, and currently am most appealed in the field of machine learning. Thus, I would like to combine my interests to create a machine learning project that would benefit music education.
+Below are some of my project brainstorm ideas as well as how they can fulfill the needs for people from a variety of backgrounds.</description>
+    </item>
+    
+    <item>
+      <title>Hidden Figure Reflection</title>
+      <link>https://ireneyrzd.github.io/post/hidden-figure-reflection/</link>
+      <pubDate>Tue, 15 Jun 2021 12:00:00 +0000</pubDate>
+      
+      <guid>https://ireneyrzd.github.io/post/hidden-figure-reflection/</guid>
+      <description>In the Declaration of Independence, Thomas Jefferson wrote that “All men are created equal”. However, history contradicts this as the fight for equality between genders and between races has not yet ended even as of now in the twenty-first century. Hidden Figures: The American Dream and the Untold Story of the Black Women Mathematicians Who Helped Win the Space Race by Margot Lee Shetterly was set in the 1960s, when the civil rights movement was prominent as people protested unfair laws and when the feminist movement had people fighting for greater personal freedom.</description>
     </item>
     
     <item>
@@ -35,12 +54,13 @@ Competition Math
       <pubDate>Mon, 14 Jun 2021 12:00:00 +0000</pubDate>
       
       <guid>https://ireneyrzd.github.io/post/favorite-holiday/</guid>
-      <description>Halloween
+      <description>My favorite holiday
+Halloween
  U can reflect ur fav character With friendsm, school spirit Brother   </description>
     </item>
     
     <item>
-      <title>git learning push</title>
+      <title>Git Learning Push</title>
       <link>https://ireneyrzd.github.io/post/git-learning-push/</link>
       <pubDate>Mon, 14 Jun 2021 12:00:00 +0000</pubDate>
       

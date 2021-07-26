@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  	<meta charset="utf-8">
+  	<meta name="viewport"    content="width=device-width, initial-scale=1.0">
+  	<meta name="description" content="">
+  	<meta name="author"      content="map[]">
+    
+    	<title>Music and Machine Learning Brainstorm</title>
+	<link rel="shortcut icon" href="https://ireneyrzd.github.ioimages/gt_favicon.png">
+
+	
+	<link href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.no-icons.min.css" rel="stylesheet">
+	
+	
+	<script defer src="https://use.fontawesome.com/releases/v5.0.11/js/all.js" integrity="sha384-ImVoB8Er8knetgQakxuBS4G3RSkyD8IZVVQCAnmRJrDwqJFYUE4YOv+DbIofcO9C" crossorigin="anonymous"></script>
+	
+	
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alice|Open+Sans:400,300,700">
+	
+	
+  
+  <link rel="stylesheet" href="https://ireneyrzd.github.io/css/styles.min.64a6643395c6bf1ec6fff31d6429046b3ad467e58a279ff252dc019edd80a87051cf90b7fe2d589277def72d84602dcbc7115e2e17a94db3a8838336986a0ae3.css" integrity="sha512-ZKZkM5XGvx7G//MdZCkEazrUZ&#43;WKJ5/yUtwBnt2AqHBRz5C3/i1Yknfe9y2EYC3LxxFeLhepTbOog4M2mGoK4w==">
+
+   
+  
+
+  </head>
+  
+  <body class="home">
+
+    
+      <header id="header">
+  <div id="head" class="parallax" data-parallax-speed="2" style="background-image:url('https://ireneyrzd.github.io');">
+    <h1 id="logo" class="text-center">
+      <img class='img-circle' src="https://ireneyrzd.github.ioimages/avatar.jpg" alt="">
+      <span class="title">Irene Wang</span>
+      <span class="tagline">A mystery person<br>
+        <a href="mailto:yiranirenewang@gmail.com">yiranirenewang@gmail.com</a>
+      </span>
+   </h1>
+</div>
+
+<nav class="navbar navbar-default navbar-sticky">
+    <div class="container-fluid">
+
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="true">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+
+        <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1">
+
+            <ul class="nav navbar-nav">
+            
+                
+                <li>
+                    <a href="/">home</a>
+                </li>
+                
+            
+                
+                <li>
+                    <a href="/post/">blog</a>
+                </li>
+                
+            
+                
+                <li>
+                    <a href="/about/">About</a>
+                </li>
+                
+            
+            </ul>
+
+        </div> 
+        
+    </div>
+</nav>
+
+</header>
+    
+ 
+    
+<main id="main">
+
+	<div class="container">
+
+		<div class="row topspace">
+			<div class="col-sm-8 col-sm-offset-2">
+
+ 				<article class="post">
+					<header class="entry-header">
+ 						<div class="entry-meta">
+               <span class="posted-on">
+                  <time class="entry-date published" datetime="June 70, 25257">July 25, 2021</time>
+               </span>
+ 						</div>
+ 						<h1 class="entry-title"><a href="https://ireneyrzd.github.io/post/music-generation-brainstorm/" rel="bookmark">Music and Machine Learning Brainstorm</a></h1>
+					</header>
+					<div class="entry-content">
+						<p>My favorite hobbies revolve around music as I enjoy playing the piano, the flute, and dancing. Additionally, I enjoy building both tangible and virtual projects. In the future, I would like to major in Computer Science, and currently am most appealed in the field of machine learning. Thus, I would like to combine my interests to create a machine learning project that would benefit music education.</p>
+<p>Below are some of my project brainstorm ideas as well as how they can fulfill the needs for people from a variety of backgrounds.</p>
+<h1 id="beat-detection">Beat Detection:</h1>
+<h2 id="current-technologies">Current technologies:</h2>
+<p>Currently, there are already research papers written about beat detection in a piece using neural networks. I would like to explore how we can apply it in daily music playing and how it can benefit people from different types of music backgrounds.</p>
+<h2 id="problem">Problem</h2>
+<ol>
+<li>During the COVID-19 pandemic shelter in place, my flute ensemble was forced to put together performances by recording our parts separated and combining them through an editing tool. However, a big dilemma we faced while rehearsing is how to make sure everyone is syncing together. While we rehearsed over Zoom, the lag in the internet meant that we could never hear everyone while we rehearsed as we will always sound ahead of others and it&rsquo;s an infinite cycle of waiting for each other.</li>
+<li>In addition, recording is also a problem. For songs with fixed tempo, we could agree on metronome tempo and record having everyone follow the tempo strictly. However, for songs with more flexibility in the rythme (e.g. have tempo changes, <em>ritardando</em>, <em>accelerando</em>), we could not prepare because everyone would have different timing at the tempo changes. Thus, when the audio files are combined, the beats and notes do not match up, and the final result sounds messy.</li>
+</ol>
+<h2 id="beat-detection-as-solution">Beat Detection as Solution</h2>
+<p>In a TED Talk by a Stanford professor, I had the chance of learning about beat detection using machine learning. If we can process every audio file by labeling the main beats within a measure, then when we combine everyone&rsquo;s recording together, we could easily edit the audio files to sync by aligning the main beats. The result is a fully matched combined recording. This can benefit online forms of music ensembles and bands in helping to create synchronized recordings and virtual performances.</p>
+<p>Another idea is an auto-generated conductor using beat detection and machine learning. The jobs of a conductor in an ensemble are, according to Wikipedia, &ldquo;to unify performers, set the tempo, execute clear preparations and beats, listen critically and shape the sound of the ensemble, and to control the interpretation and pacing of the music&rdquo; by giving visual cues. While tasks such as pointing out dynamic change and steady tempo can easily be assessed by reading the music score, others, like deciding the interpretation, the expression of the music is more abstract.</p>
+<p>In an ensemble of students without a conductor, a computer generated conductor would greatly increase the efficiency and quality of rehearsal. The virtual conductor would train using existing recordings of other bands playing the same song, other songs in the same style of music or ones written by the same composers, and most importantly, a part played by the lead player. Using these inputs, the computer created conductor would have an understanding on how the song should be interpreted and expressed, then giving vision cues of tempo and dynamic to the player. This would benefit players practicing, but more importantly those who are unable to come together for in-person rehearsal and need seperate, virtual practice sessions. This would fix the dilemma of synchronizing during online rehearsal by providing a virtual conductor to practice with. It opens up the possibility of more virtual, long-distance ensembles involving members from all over the world, to perform songs together.</p>
+<p>Finally, this can be expanded to create online duet partners. Observed by my piano teacher, I found that beginner players are much attracted to playing duet music. Not only does the sense that someone is accompanying you solves the common grudge against practicing piano being lonely, it also decorates an original simple piece to sound more sophisticated and give the player a sense of accomplishment.</p>
+<h1 id="music-generation">Music Generation:</h1>
+<h2 id="uses">Uses:</h2>
+<p>Analyzing Google Magenta&rsquo;s project (<a href="https://magenta.tensorflow.org/piano-transformer),">https://magenta.tensorflow.org/piano-transformer),</a> there are three main categories that a machine generated music can be useful:</p>
+<ol>
+<li>Creation*
+<ul>
+<li>Creating background music for commercial purposes</li>
+</ul>
+</li>
+<li>Continuation
+<ul>
+<li>Helping a composer create new raw materials to work on by extending any short phrases they have written into a longer, more complete phrase</li>
+<li>Continuation of a song in the same style to create an elongated version of a piece</li>
+<li>Continuation in the sense of extending the work repertoire of a deceased composer in a matching style</li>
+</ul>
+</li>
+<li>Accompaniment
+<ul>
+<li>Creating an accompaniment of a pop song given a level of difficulty imputed based on the desire of a player</li>
+<li>Creating corresponding duet parts to be played by a computer along with a beginner piano player</li>
+</ul>
+</li>
+</ol>
+<ul>
+<li>In these three categories, I found the unconditional idea to be more achievable for me in the current phase and the easiest one to improve. As a result, I have created a similar project in my time during the Summer Research Academies program. I will follow up on my findings and opinions in the following post, as well as how the topic can be extended upon to fit a variety of different usages.</li>
+</ul>
+
+					</div>
+				</article>
+
+			</div>
+		</div> 
+
+		<div class="row">
+			<div class="col-sm-8 col-sm-offset-2">
+
+				<div id="share">
+					
+				</div>
+			</div>
+		</div> 
+		<div class="clearfix"></div>
+
+		<div class="row">
+			<div class="col-sm-8 col-sm-offset-2">
+
+				<div id="comments">
+					
+				</div>
+			</div>
+		</div> 
+		<div class="clearfix"></div>
+
+	</div>	
+
+</main>
+
+    
+    
+      <footer id="footer">
+	<div class="container">
+		<div class="row">
+			
+			<div class="col-md-3 widget">
+				<h3 class="widget-title">Contact</h3>
+				<div class="widget-body">
+					<p>...<br>
+					<a href="mailto:yiranirenewang@gmail.com">yiranirenewang@gmail.com</a><br>
+					<br>
+					...
+					</p>
+				</div>
+			</div>
+			
+
+			
+			<div class="col-md-3 widget">
+				<h3 class="widget-title">Follow me</h3>
+				<div class="widget-body">
+					<p class="follow-me-icons">
+            
+							
+            
+							
+            
+							
+            
+							
+            
+							
+            
+							
+            
+							
+								<a href="https://github.com/ireneyrzd" target="_blank"><i class="fab fa-github fa-1x"></i></a>
+							
+            
+							
+            
+					</p>
+				</div>
+			</div>
+			
+
+			
+
+			
+
+		</div> 
+	</div>
+</footer>
+
+<footer id="underfooter">
+	<div class="container">
+		<div class="row">
+
+			<div class="col-md-6 widget">
+				<div class="widget-body">
+					<p>...</p>
+				</div>
+			</div>
+
+			<div class="col-md-6 widget">
+				<div class="widget-body">
+					<p class="text-right">
+						Copyright &copy; 2021, Irene Wang<br>
+						Design: <a href="http://www.gettemplate.com" rel="designer">Initio by GetTemplate</a> - 
+						Powered by: <a href="https://gohugo.io/" rel="poweredby">Hugo</a>
+					</p>
+				</div>
+			</div>
+
+		</div> 
+	</div>
+</footer>
+
+
+
+
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+
+
+
+
+<script src="https://ireneyrzd.github.io/js/bundle.min.f4a965ad0a8118e32f8f0f158ff3aadbacf700934c22286a1a5b245105e9006da73a873b001a160db22498909c1df14d1f835dba5ad76f80b32b0234182b2a58.js" integrity="sha512-9KllrQqBGOMvjw8Vj/Oq26z3AJNMIihqGlskUQXpAG2nOoc7ABoWDbIkmJCcHfFNH4NdulrXb4CzKwI0GCsqWA=="></script>
+
+<script id="dsq-count-scr" src="//hugo-initio-site.disqus.com/count.js" async></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'GA-000000000-0', 'auto');
+  ga('send', 'pageview');
+</script>
+
+</body>
+</html>
+
+    
+  </body>
+  
+</html>
