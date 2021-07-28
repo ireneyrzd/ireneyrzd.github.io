@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Machine Learning Brainstorms on Irene&#39;s Blog</title>
+    <link>https://ireneyrzd.github.io/tags/machine-learning-brainstorms/</link>
+    <description>Recent content in Machine Learning Brainstorms on Irene&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 26 Jul 2021 12:00:00 +0000</lastBuildDate><atom:link href="https://ireneyrzd.github.io/tags/machine-learning-brainstorms/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MusicNet Brainstorm and Analysis</title>
+      <link>https://ireneyrzd.github.io/post/musicnet-brainstorm-and-analysis/</link>
+      <pubDate>Mon, 26 Jul 2021 12:00:00 +0000</pubDate>
+      
+      <guid>https://ireneyrzd.github.io/post/musicnet-brainstorm-and-analysis/</guid>
+      <description>If you look at my other post (SRA Experience Recap 7/26), the current music generation models can be improved to become more customizable if a dataset with specific labels are created. Then, when a user prompts for a certain characteristic as input, only songs with corresponding tags would be fed into the training model, and the output result would follow the desire of the user.
+Possible Labels to the MusicNet datasets  Composer Musical period (eg.</description>
+    </item>
+    
+    <item>
+      <title>SRA Experience Recap</title>
+      <link>https://ireneyrzd.github.io/post/sra-expierence-recap/</link>
+      <pubDate>Mon, 26 Jul 2021 12:00:00 +0000</pubDate>
+      
+      <guid>https://ireneyrzd.github.io/post/sra-expierence-recap/</guid>
+      <description>In my 2021 summer going from sophomore to junior year, I was honored to be selected to be part of a highly selective summer research program: Summer Research Academies at UC Santa Barbara. The program has an overall acceptance rate of 18.9% and I was one of five girls in a group of 26 students enrolled in Track 9 Machine Intelligence: An Introduction to Optimization and Machine learning.
+During the four week program, me along with my group of two other students were challenged to create a machine learning project.</description>
+    </item>
+    
+    <item>
+      <title>Music and Machine Learning Brainstorm</title>
+      <link>https://ireneyrzd.github.io/post/music-generation-brainstorm/</link>
+      <pubDate>Sun, 25 Jul 2021 12:00:00 +0000</pubDate>
+      
+      <guid>https://ireneyrzd.github.io/post/music-generation-brainstorm/</guid>
+      <description>My favorite hobbies revolve around music as I enjoy playing the piano, the flute, and dancing. Additionally, I enjoy building both tangible and virtual projects. In the future, I would like to major in Computer Science, and currently am most appealed in the field of machine learning. Thus, I would like to combine my interests to create a machine learning project that would benefit music education.
+Below are some of my project brainstorm ideas as well as how they can fulfill the needs for people from a variety of backgrounds.</description>
+    </item>
+    
+  </channel>
+</rss>

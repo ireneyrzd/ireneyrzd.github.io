@@ -7,7 +7,7 @@
   	<meta name="author"      content="map[]">
     
     	<title>Git Learning(2) - Hugo and Rebase</title>
-	<link rel="shortcut icon" href="https://ireneyrzd.github.io/images/gt_favicon.png">
+	<link rel="shortcut icon" href="https://ireneyrzd.github.io/images/Irene_favicon.png">
 
 	
 	<link href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.no-icons.min.css" rel="stylesheet">
@@ -31,11 +31,11 @@
 
     
       <header id="header">
-  <div id="head" class="parallax" data-parallax-speed="2" style="background-image:url('https://ireneyrzd.github.io');">
+  <div id="head" class="parallax" data-parallax-speed="2" style="background-image:url('https://ireneyrzd.github.io/images/Irene_banner.jpg');">
     <h1 id="logo" class="text-center">
       <img class='img-circle' src="https://ireneyrzd.github.io/images/avatar.jpg" alt="">
       <span class="title">Irene Wang</span>
-      <span class="tagline">A mystery person<br>
+      <span class="tagline">A highschooler eager about the future<br>
         <a href="mailto:yiranirenewang@gmail.com">yiranirenewang@gmail.com</a>
       </span>
    </h1>
@@ -65,13 +65,19 @@
             
                 
                 <li>
+                    <a href="/tags/">tags</a>
+                </li>
+                
+            
+                
+                <li>
                     <a href="/post/">blog</a>
                 </li>
                 
             
                 
                 <li>
-                    <a href="/about/">About</a>
+                    <a href="/about/">About ME</a>
                 </li>
                 
             
@@ -110,6 +116,12 @@
 <p>First time: make sure a folder has been created to store the generated HTML code. A new repo can be created following the instruction in my earlier post (Git Learning(1))</p>
 <p>To update to the folder:</p>
 <pre><code>hugo -d ../ireneyrzd.github.io/
+cd ../ireneyrzd.github.io/
+
+git add .
+git status
+git commit -m &quot;commit comment&quot;
+git push
 </code></pre><p>** How to download template: <a href="https://gohugo.io/getting-started/quick-start/">https://gohugo.io/getting-started/quick-start/</a></p>
 <h2 id="git-rebase">Git rebase</h2>
 <h4 id="why">Why?</h4>

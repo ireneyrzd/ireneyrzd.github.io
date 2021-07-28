@@ -6,7 +6,7 @@
     <description>Recent content on Irene&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 25 Jul 2021 12:00:00 +0000</lastBuildDate><atom:link href="https://ireneyrzd.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 26 Jul 2021 12:00:00 +0000</lastBuildDate><atom:link href="https://ireneyrzd.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Download original template</title>
       <link>https://ireneyrzd.github.io/home/downloads/download1/</link>
@@ -17,16 +17,33 @@
     </item>
     
     <item>
-      <title>About</title>
+      <title>About ME</title>
       <link>https://ireneyrzd.github.io/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ireneyrzd.github.io/about/</guid>
-      <description>Education Basis Independent Silicon Valley Sophomore | 9th Grade GPA: 4, Weighted GPA: 4.75
-Project Highlights Asia Hate Crime Heat Map March 2021 Collect crime rate data in CA counties, and predict the possibility of crime in given areas with Python and Google Colab.
-Skills Languages: Java, JavaScript, Python
-Competition Math
- AIME qualified 1st place mixer round at Yale Girls Math 2021 8th individual at Math League 2020 4th place team at Stanford Math Tournament 2019  Hobbies Piano</description>
+      <description>Questions to be prepared and put in your resume:
+ who is your most admired person? your most favorite book? 3 books you read this year? the most exciting thing you remember one thing you really screwed up. How did you handle it and how did you address the mistake? What did you learn from this experience? what is your dream What motivates you to study? What are the three most important characteristics of your personality?</description>
+    </item>
+    
+    <item>
+      <title>MusicNet Brainstorm and Analysis</title>
+      <link>https://ireneyrzd.github.io/post/musicnet-brainstorm-and-analysis/</link>
+      <pubDate>Mon, 26 Jul 2021 12:00:00 +0000</pubDate>
+      
+      <guid>https://ireneyrzd.github.io/post/musicnet-brainstorm-and-analysis/</guid>
+      <description>If you look at my other post (SRA Experience Recap 7/26), the current music generation models can be improved to become more customizable if a dataset with specific labels are created. Then, when a user prompts for a certain characteristic as input, only songs with corresponding tags would be fed into the training model, and the output result would follow the desire of the user.
+Possible Labels to the MusicNet datasets  Composer Musical period (eg.</description>
+    </item>
+    
+    <item>
+      <title>SRA Experience Recap</title>
+      <link>https://ireneyrzd.github.io/post/sra-expierence-recap/</link>
+      <pubDate>Mon, 26 Jul 2021 12:00:00 +0000</pubDate>
+      
+      <guid>https://ireneyrzd.github.io/post/sra-expierence-recap/</guid>
+      <description>In my 2021 summer going from sophomore to junior year, I was honored to be selected to be part of a highly selective summer research program: Summer Research Academies at UC Santa Barbara. The program has an overall acceptance rate of 18.9% and I was one of five girls in a group of 26 students enrolled in Track 9 Machine Intelligence: An Introduction to Optimization and Machine learning.
+During the four week program, me along with my group of two other students were challenged to create a machine learning project.</description>
     </item>
     
     <item>
@@ -64,9 +81,9 @@ How?** Once template has been filled out, the static page can be build using cod
       <pubDate>Mon, 14 Jun 2021 12:00:00 +0000</pubDate>
       
       <guid>https://ireneyrzd.github.io/post/favorite-holiday/</guid>
-      <description>My favorite holiday
-Halloween
- U can reflect ur fav character With friendsm, school spirit Brother   </description>
+      <description>My favorite holiday is:
+Halloween!!
+ You can reflect on what was your favorite character in the past year Share bondings with friends as you discuss whether you want to make a group costume together and make plans for trick or treat A demonstration of school spirit during our annual parade showcaseing our costume around campus During October leading up to Halloween, can use the promise of taking him to trick-or-treat as a bribe to little brother for listening to me.</description>
     </item>
     
     <item>
@@ -86,7 +103,7 @@ Halloween
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ireneyrzd.github.io/home/subheader/</guid>
-      <description>Let me tell you something my friend. hope is a dangerous thing. hope can drive a man insane. you measure yourself by the people who measure themselves by you. it only took me six days.</description>
+      <description>Eight scores ago, President Lincoln said &amp;ldquo;Most folks are usually about as happy as they make up their minds to be&amp;rdquo; and I am determined to squeeze every drop of happiness there is in my sponge.</description>
     </item>
     
     <item>

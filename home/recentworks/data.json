@@ -1,102 +1,38 @@
 [
     {
         "id": 0,
-        "name": "Sample title - big data solutions",
-        "image": "images/s1.jpg",
-        "url": "#",
+        "name": "Rachmaninoff, Etude-Tableaux Op. 39 No. 8: Analysis + Performance",
+        "image": "images/Rachmaninoff_etude.jpg",
+        "url": "https://www.youtube.com/watch?v=GCPrf20V0lo",
         "items": [
-            {
-                "name": "Web design",
-                "url": "#"
-            },
-            {
-                "name": "Wordpress",
-                "url": "#"
-            },
-            {
-                "name": "Logotype",
-                "url": "#"
-            }
+
         ]
     },
     {
         "id": 1,
-        "name": "Pure ipsum - development services for people",
-        "image": "images/s1.jpg",
-        "url": "#",
+        "name": "Prokofiev Piano Sonata Op. 14 No. 2 in d minor",
+        "image": "images/Prokofiev_sonata.jpg",
+        "url": "https://youtu.be/EhVOAf4guMc",
         "items": [
-            {
-                "name": "Web design",
-                "url": "#"
-            },
-            {
-                "name": "Wordpress",
-                "url": "#"
-            }
+
         ]
     },
     {
         "id": 2,
-        "name": "Lorem studios - interior and patio design",
-        "image": "images/s1.jpg",
-        "url": "#",
+        "name": "Bach Prelude and Fugue No.3 BWV 848, WTC 1",
+        "image": "images/Bach_PF3.jpg",
+        "url": "https://youtu.be/R7QnsvQWeAs",
         "items": [
-            {
-                "name": "Web design",
-                "url": "#"
-            },
-            {
-                "name": "Logotype",
-                "url": "#"
-            }
+
         ]
     },
     {
         "id": 3,
-        "name": "Pure ipsum - development services for people",
-        "image": "images/s1.jpg",
-        "url": "#",
+        "name": "Flute - 紫竹调 Purple Bamboo Melody",
+        "image": "images/Purple_bamboo.jpg",
+        "url": "https://youtu.be/gFBUdDkja7I",
         "items": [
-            {
-                "name": "Web design",
-                "url": "#"
-            },
-            {
-                "name": "Wordpress",
-                "url": "#"
-            }
-        ]
-    },
-    {
-        "id": 4,
-        "name": "Lorem studios - interior and patio design",
-        "image": "images/s1.jpg",
-        "url": "#",
-        "items": [
-            {
-                "name": "Web design",
-                "url": "#"
-            },
-            {
-                "name": "Logotype",
-                "url": "#"
-            }
-        ]
-    },
-    {
-        "id": 5,
-        "name": "Lorem studios - interior and patio design",
-        "image": "images/s1.jpg",
-        "url": "#",
-        "items": [
-            {
-                "name": "Web design",
-                "url": "#"
-            },
-            {
-                "name": "Logotype",
-                "url": "#"
-            }
+
         ]
     }
 ]
