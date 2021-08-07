@@ -6,7 +6,7 @@
   	<meta name="description" content="">
   	<meta name="author"      content="map[]">
     
-    	<title></title>
+    	<title>Linux Learning(1) - Git Push</title>
 	<link rel="shortcut icon" href="https://ireneyrzd.github.io/images/Irene_favicon.png">
 
 	
@@ -103,14 +103,32 @@
 					<header class="entry-header">
  						<div class="entry-meta">
                <span class="posted-on">
-                  <time class="entry-date published" datetime="June 10, 1011">January 1, 0001</time>
+                  <time class="entry-date published" datetime="June 70, 14147">July 14, 2021</time>
                </span>
  						</div>
- 						<h1 class="entry-title"><a href="https://ireneyrzd.github.io/home/subheader/" rel="bookmark"></a></h1>
+ 						<h1 class="entry-title"><a href="https://ireneyrzd.github.io/post/linux-learning1-git-push/" rel="bookmark">Linux Learning(1) - Git Push</a></h1>
 					</header>
 					<div class="entry-content">
-						<p>Eight scores ago, President Lincoln said &ldquo;Most folks are usually about as happy as they make up their minds to be&rdquo; and I am determined to squeeze every drop of happiness there is in my sponge.</p>
-
+						<h2 id="what-is-hugo">What is Hugo?</h2>
+<h4 id="to-push-changes-of-website-from-md-to-github-through-git">To push changes of website from .md to github through git</h4>
+<p>First time:</p>
+<pre><code>1. git init
+2. git add .
+3. git status
+4. git commit -m &quot;first commit&quot;
+5. git branch -M main
+6. git remote add origin https://github.com/ireneyrzd/Homepage.git
+7. git push -u origin main
+</code></pre><p>After origin and main has been initialized:</p>
+<pre><code>1. git status
+2. git add &lt;file&gt;
+3. git rm &lt;file&gt;
+4. git status
+5. git commit -m &quot;commit comment&quot;
+6. git push -u
+</code></pre><h4 id="view-local-host-website">View local host website</h4>
+<pre><code>1. hugo server -D
+</code></pre>
 					</div>
 				</article>
 
@@ -122,6 +140,36 @@
 
 				<div id="share">
 					
+							<div class="row">
+    <div class="col-xs-12 col-sm-offset-1 col-sm-10 col-md-offset-2 col-md-8">
+        
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+                    <div data-network="" data-title=" >> " class="st-custom-button"> <i class="fab fa-github fa-2x"></i> </div>
+                
+            
+                
+                    <div data-network="email" data-title=" >> " class="st-custom-button"> <i class="fas fa-envelope-square fa-2x"></i> </div>
+                
+            
+            <div data-network="sharethis" data-title="Linux Learning(1) - Git Push >> " class="st-custom-button"> <i class="fas fa-share-alt-square fa-2x"></i> </div>
+        
+    </div>
+</div> 
+
+					
 				</div>
 			</div>
 		</div> 
@@ -131,6 +179,23 @@
 			<div class="col-sm-8 col-sm-offset-2">
 
 				<div id="comments">
+					
+							<div id="disqus_thread"></div>
+<script>
+
+
+
+
+
+(function() { 
+var d = document, s = d.createElement('script');
+s.src = 'https://https-ireneyrzd-github-io.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
 					
 				</div>
 			</div>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linux Learning on Irene&#39;s Blog</title>
+    <link>https://ireneyrzd.github.io/tags/linux-learning/</link>
+    <description>Recent content in Linux Learning on Irene&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 04 Aug 2021 12:00:00 +0000</lastBuildDate><atom:link href="https://ireneyrzd.github.io/tags/linux-learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Linux Learning(3) - Virtual env</title>
+      <link>https://ireneyrzd.github.io/post/linux-learning3-virtual-env/</link>
+      <pubDate>Wed, 04 Aug 2021 12:00:00 +0000</pubDate>
+      
+      <guid>https://ireneyrzd.github.io/post/linux-learning3-virtual-env/</guid>
+      <description>How to set up Virtual env python3.7 -m venv . source bin/activate </description>
+    </item>
+    
+    <item>
+      <title>Linux Learning(2) - Hugo and Git Rebase</title>
+      <link>https://ireneyrzd.github.io/post/linux-learning2-hugo-and-git-rebase/</link>
+      <pubDate>Sun, 25 Jul 2021 12:00:00 +0000</pubDate>
+      
+      <guid>https://ireneyrzd.github.io/post/linux-learning2-hugo-and-git-rebase/</guid>
+      <description>What is Hugo? Hugo provides sample website templates, which include intructions in simple English language in how to fill in different sections. Once that is complete, Hugo will automatically generate the html code for the website using the template. The website can then be published using a url domain such as one from github.
+How?** Once template has been filled out, the static page can be build using code below:</description>
+    </item>
+    
+    <item>
+      <title>Linux Learning(1) - Git Push</title>
+      <link>https://ireneyrzd.github.io/post/linux-learning1-git-push/</link>
+      <pubDate>Wed, 14 Jul 2021 12:00:00 +0000</pubDate>
+      
+      <guid>https://ireneyrzd.github.io/post/linux-learning1-git-push/</guid>
+      <description>What is Hugo? To push changes of website from .md to github through git First time:
+1. git init 2. git add . 3. git status 4. git commit -m &amp;quot;first commit&amp;quot; 5. git branch -M main 6. git remote add origin https://github.com/ireneyrzd/Homepage.git 7. git push -u origin main After origin and main has been initialized:
+1. git status 2. git add &amp;lt;file&amp;gt; 3. git rm &amp;lt;file&amp;gt; 4. git status 5.</description>
+    </item>
+    
+  </channel>
+</rss>

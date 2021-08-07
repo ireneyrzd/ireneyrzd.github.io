@@ -15,11 +15,12 @@
         "url": "https://youtu.be/EhVOAf4guMc",
         "items": [
 
+
         ]
     },
     {
         "id": 2,
-        "name": "Bach Prelude and Fugue No.3 BWV 848, WTC 1",
+        "name": "Romantic Romantic Romantic Romantic Romantic Romantic ",
         "image": "images/Bach_PF3.jpg",
         "url": "https://youtu.be/R7QnsvQWeAs",
         "items": [
@@ -28,9 +29,99 @@
     },
     {
         "id": 3,
+        "name": "Classical",
+        "image": "images/Bach_PF3.jpg",
+        "url": "https://youtu.be/R7QnsvQWeAs",
+        "items": [
+
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Bach Prelude and Fugue No.3 BWV 848, WTC 1",
+        "image": "images/Bach_PF3.jpg",
+        "url": "https://youtu.be/R7QnsvQWeAs",
+        "items": [
+
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Liszt Grandes études de Paganini in a minor, Theme and Variations S. 141 No. 6",
+        "image": "images/Listz_Etude.jpg",
+        "url": "https://youtu.be/ByJUv5pugQ8",
+        "items": [
+
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Contemporary",
+        "image": "images/Bach_PF3.jpg",
+        "url": "https://youtu.be/R7QnsvQWeAs",
+        "items": [
+
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Romatic",
+        "image": "images/Bach_PF3.jpg",
+        "url": "https://youtu.be/R7QnsvQWeAs",
+        "items": [
+
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Beethoven “Pathetique” Sonata Op. 13 No. 8, Mvt I. Grave. Allegro di molto e con brio",
+        "image": "images/Beethoven_Pathetique.jpg",
+        "url": "https://youtu.be/5awLcvktxvY",
+        "items": [
+
+        ]
+    },
+    {
+        "id": 9,
+        "name": "Baroque",
+        "image": "images/Bach_PF3.jpg",
+        "url": "https://youtu.be/R7QnsvQWeAs",
+        "items": [
+
+        ]
+    },
+    {
+        "id": 10,
+        "name": "Villa-Lobos O Polichinelo",
+        "image": "images/Villa_Lobos.jpg",
+        "url": "https://youtu.be/BgUc1YQVWBg",
+        "items": [
+
+        ]
+    },
+    {
+        "id": 11,
         "name": "Flute - 紫竹调 Purple Bamboo Melody",
         "image": "images/Purple_bamboo.jpg",
         "url": "https://youtu.be/gFBUdDkja7I",
+        "items": [
+
+        ]
+    },
+    {
+        "id": 12,
+        "name": "Liszt - Love Dream (Liebestraum) S. 541 No. 3 III. Poco allegro, con affetto",
+        "image": "images/Listz_Liebestraum.jpg",
+        "url": "https://youtu.be/s6XvsHkj1e4",
+        "items": [
+
+        ]
+    },
+    {
+        "id": 13,
+        "name": "Chopin Ballade Op. 23 No. 1 in g minor",
+        "image": "images/Chopin_Ballade.jpg",
+        "url": "https://youtu.be/mohtXM043-Y",
         "items": [
 
         ]
