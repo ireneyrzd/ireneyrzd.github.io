@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Music Dataset on Irene&#39;s Blog</title>
+    <link>https://ireneyrzd.github.io/tags/music-dataset/</link>
+    <description>Recent content in Music Dataset on Irene&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 15 Aug 2021 12:00:00 +0000</lastBuildDate><atom:link href="https://ireneyrzd.github.io/tags/music-dataset/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Music Dataset Introduction</title>
+      <link>https://ireneyrzd.github.io/post/music-dataset-introduction/</link>
+      <pubDate>Sun, 15 Aug 2021 12:00:00 +0000</pubDate>
+      
+      <guid>https://ireneyrzd.github.io/post/music-dataset-introduction/</guid>
+      <description>Why Music Dataset? Music Dataset is an free, public online platform that hopes to solve the subjecivity in music by collecting response of abstract components in classical music from a variety of audience. It seeks to take advantage the online setting where people from all over the world can be easily connected through one projects. The viewers are asked to place descriptive tags onto music according to the unique response that the particular repotoires evokes in them.</description>
+    </item>
+    
+  </channel>
+</rss>

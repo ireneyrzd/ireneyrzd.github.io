@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  	<meta charset="utf-8">
+  	<meta name="viewport"    content="width=device-width, initial-scale=1.0">
+  	<meta name="description" content="">
+  	<meta name="author"      content="map[]">
+    
+    	<title>Music Dataset Introduction</title>
+	<link rel="shortcut icon" href="https://ireneyrzd.github.io/images/Irene_favicon.png">
+
+	
+	<link href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.no-icons.min.css" rel="stylesheet">
+	
+	
+	<script defer src="https://use.fontawesome.com/releases/v5.0.11/js/all.js" integrity="sha384-ImVoB8Er8knetgQakxuBS4G3RSkyD8IZVVQCAnmRJrDwqJFYUE4YOv+DbIofcO9C" crossorigin="anonymous"></script>
+	
+	
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alice|Open+Sans:400,300,700">
+	
+	
+  
+  <link rel="stylesheet" href="https://ireneyrzd.github.io/css/styles.min.64a6643395c6bf1ec6fff31d6429046b3ad467e58a279ff252dc019edd80a87051cf90b7fe2d589277def72d84602dcbc7115e2e17a94db3a8838336986a0ae3.css" integrity="sha512-ZKZkM5XGvx7G//MdZCkEazrUZ&#43;WKJ5/yUtwBnt2AqHBRz5C3/i1Yknfe9y2EYC3LxxFeLhepTbOog4M2mGoK4w==">
+
+   
+  
+
+  </head>
+  
+  <body class="home">
+
+    
+      <header id="header">
+  <div id="head" class="parallax" data-parallax-speed="2" style="background-image:url('https://ireneyrzd.github.io/images/Irene_banner.jpg');">
+    <h1 id="logo" class="text-center">
+      <img class='img-circle' src="https://ireneyrzd.github.io/images/avatar.jpg" alt="">
+      <span class="title">Irene Wang</span>
+      <span class="tagline">A highschooler eager about the future<br>
+        <a href="mailto:yiranirenewang@gmail.com">yiranirenewang@gmail.com</a>
+      </span>
+   </h1>
+</div>
+
+<nav class="navbar navbar-default navbar-sticky">
+    <div class="container-fluid">
+
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="true">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+
+        <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1">
+
+            <ul class="nav navbar-nav">
+            
+                
+                <li>
+                    <a href="/">home</a>
+                </li>
+                
+            
+                
+                <li>
+                    <a href="/tags/">tags</a>
+                </li>
+                
+            
+                
+                <li>
+                    <a href="/post/">blog</a>
+                </li>
+                
+            
+                
+                <li>
+                    <a href="/about/">About ME</a>
+                </li>
+                
+            
+            </ul>
+
+        </div> 
+        
+    </div>
+</nav>
+
+</header>
+    
+ 
+    
+<main id="main">
+
+	<div class="container">
+
+		<div class="row topspace">
+			<div class="col-sm-8 col-sm-offset-2">
+
+ 				<article class="post">
+					<header class="entry-header">
+ 						<div class="entry-meta">
+               <span class="posted-on">
+                  <time class="entry-date published" datetime="June 80, 15158">August 15, 2021</time>
+               </span>
+ 						</div>
+ 						<h1 class="entry-title"><a href="https://ireneyrzd.github.io/post/music-dataset-introduction/" rel="bookmark">Music Dataset Introduction</a></h1>
+					</header>
+					<div class="entry-content">
+						<h3 id="why-music-dataset">Why Music Dataset?</h3>
+<p>Music Dataset is an free, public online platform that hopes to solve the subjecivity in music by collecting response of abstract components in classical music from a variety of audience. It seeks to take advantage the online setting where people from all over the world can be easily connected through one projects. The viewers are asked to place descriptive tags onto music according to the unique response that the particular repotoires evokes in them. Qualities of music, such as the emotion, valence, or excitement level that it is able to bring to the listener, once ambigious and objective, can become specific measurements gvien to music using the help of the general community.</p>
+<p>While image classification and recognition have grown increasingly robust in recent years, the field of processing of music using deep learning are still relatively new.</p>
+<p>This is due to the amount complexity involved in music. In general, music includes concrete components (e.g. rhythm, tempo, time signature, pitch, key, and tonality) and abstract components (e.g. texture, dynamics, articulation, and timbre). The concret components are straight forward and objective in terms of measurement values and data collection. On the other hand, the abstract component is more subjective and lacks standard of measurement.  As a result, making datasets of subjective and abstract qualities of songs, a critical component of making music accessible to deep learning training, is difficult to achieve.</p>
+<p>By labeling the music, I hope the dataset can solve the complexity involved in the abstract components of music, thus allowing it to be analyzed and classified by computer. The ultimate aim is to improve the field of music machine learning by providing a dataset for training.</p>
+<h3 id="how-to-use-it">How to use it?</h3>
+<p>So far, the dataset includes 1,276 reportoires, each paired with form that collects responses about the music. They have been sorted for easy find by:</p>
+<ol>
+<li>The first letter of their title in the alphabetical order</li>
+<li>The music period from which their composer lived in:
+<ol>
+<li>Baroque (1600 - 1750)</li>
+<li>Classical (1750 – 1820)</li>
+<li>Romantic (1820 – 1900)</li>
+<li>Impressionism (1890-1920)</li>
+<li>Contemporary (1820 – present)</li>
+</ol>
+</li>
+<li>The first letter of their composer in the alphabetical order</li>
+</ol>
+<p>To contribute to the dataset, you can select a composing genre, artist, or period of your preference. On the page of each individual songs, a playable midi recording (no downloads required, but note that it may takes some time to load), piano tile visuals, and a form which requires inputs from you regarding description labels for the music and some optional questions about your background that would help greatly to data analysis. Please complete as many forms as you can, but don&rsquo;t feel obligated to rush through them. Take the time to relax and to truly appreciate the music and the emotions that it may bring to you. Lastly, I would really appreciate it if you can share this and bring your friends and family to this data collection process as well.</p>
+<p>To access the dataset, feel free to email me at <a href="mailto:MusicDataset@gmail.com">MusicDataset@gmail.com</a>.</p>
+<h3 id="background">Background</h3>
+<p>Music Dataset is created by a girl passionate about both music and computer science. I have been playing the piano for more than 11 years and am seeking ways to combine these two fields and wishing to make an impact.</p>
+<p>The idea was created when the student was working on a music generation model that uses machine learning. I wished to allow the user to input specific characteristics they want in the music, and to achieve that, a curated training data must first be created for data pre-processing. I believe the current music generation models can be greatly improved to become more customizable if a dataset with specific labels are created. Then, when a user prompts for a certain characteristic as input, only songs with corresponding tags would be fed into the training model, and the output result would follow the desire of the user.</p>
+<p>While researching about plausible labels to gave to the dataset, I came about the article <a href="https://www.pnas.org/content/117/4/1924">&ldquo;What music makes us feel: At least 13 dimensions organize subjective experiences associated with music across different cultures&rdquo;</a> written by UC Berkeley researchers. This inspired the first three questions in my survey, asking for the emotion (categorized into 13 feelings: amusement, joy, eroticism, beauty, relaxation, sadness, dreaminess, triumph, anxiety, scariness, annoyance, defiance, and feeling pumped up), valence, and excitement level upon hearing a piece of music. Further questions ask for the difficulty levels about these songs, to better sort the dataset as input to the music generation machine learning model, as the input directly determines the style of the output.</p>
+<h3 id="future-improvements">Future improvements</h3>
+<p>The website and dataset is only in an infancy state, it can be improved in multiple aspects:</p>
+<ol>
+<li>Modify the website to be able to look for repertoires more easily, such as by adding a &ldquo;search&rdquo; option or by adding shortcuts using the alphabet of the first character.</li>
+<li>Advertise the website to increase the collection of form responses.</li>
+<li>Devise more labels to be included in the forms that are needed to correctly categorize the music.</li>
+<li>Add additional music data points to the dataset to possibly include instruments other than the piano.</li>
+</ol>
+<h3 id="source">Source</h3>
+<p>Currently, I have included <a href="https://magenta.tensorflow.org/datasets/maestro">MAESTRO</a> (MIDI and Audio Edited for Synchronous Tracks and Organization) Version 3.0.0 in the dataset. This source is common in music machine learning projects and includes about 200 hours of virtuosic piano performances from the <a href="https://piano-e-competition.com">International Piano-e-Competition</a>.</p>
+<h3 id="acknowledgement">Acknowledgement</h3>
+<p>Huge thank you for:</p>
+<ul>
+<li><a href="https://magenta.tensorflow.org/datasets/maestro">Magenta</a> for the MAESTRO Dataset;</li>
+<li><a href="https://gohugo.io/">Hugo</a> for the website framework and the easy generation of static sites;</li>
+<li><a href="https://github.com/miguelsimoni/hugo-initio">Hugo-Initio</a> for nice looking theme and templates;</li>
+<li><a href="https://github.com/guayom/hugo-taxonomies">Hugo taxomies</a> for teaching me how to add the taxonomy organization to the website;</li>
+<li><a href="https://github.com/cifkao/html-midi-player">Ondřej Cífka</a> for the awesome html midi player effect;</li>
+<li>And lastly, my dad, for guiding me along when I need help with coding.</li>
+</ul>
+<p>For more information, please checkout the Music Dataset website at <a href="https://musicdataset.github.io/">https://musicdataset.github.io/</a>.</p>
+
+					</div>
+				</article>
+
+			</div>
+		</div> 
+
+		<div class="row">
+			<div class="col-sm-8 col-sm-offset-2">
+
+				<div id="share">
+					
+							<div class="row">
+    <div class="col-xs-12 col-sm-offset-1 col-sm-10 col-md-offset-2 col-md-8">
+        
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+                    <div data-network="" data-title=" >> " class="st-custom-button"> <i class="fab fa-github fa-2x"></i> </div>
+                
+            
+                
+                    <div data-network="email" data-title=" >> " class="st-custom-button"> <i class="fas fa-envelope-square fa-2x"></i> </div>
+                
+            
+            <div data-network="sharethis" data-title="Music Dataset Introduction >> " class="st-custom-button"> <i class="fas fa-share-alt-square fa-2x"></i> </div>
+        
+    </div>
+</div> 
+
+					
+				</div>
+			</div>
+		</div> 
+		<div class="clearfix"></div>
+
+		<div class="row">
+			<div class="col-sm-8 col-sm-offset-2">
+
+				<div id="comments">
+					
+							<div id="disqus_thread"></div>
+<script>
+
+
+
+
+
+(function() { 
+var d = document, s = d.createElement('script');
+s.src = 'https:///embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+					
+				</div>
+			</div>
+		</div> 
+		<div class="clearfix"></div>
+
+	</div>	
+
+</main>
+
+    
+    
+      <footer id="footer">
+	<div class="container">
+		<div class="row">
+			
+			<div class="col-md-3 widget">
+				<h3 class="widget-title">Contact</h3>
+				<div class="widget-body">
+					<p>...<br>
+					<a href="mailto:yiranirenewang@gmail.com">yiranirenewang@gmail.com</a><br>
+					<br>
+					...
+					</p>
+				</div>
+			</div>
+			
+
+			
+			<div class="col-md-3 widget">
+				<h3 class="widget-title">Follow me</h3>
+				<div class="widget-body">
+					<p class="follow-me-icons">
+            
+							
+            
+							
+            
+							
+            
+							
+            
+							
+            
+							
+            
+							
+								<a href="https://github.com/ireneyrzd" target="_blank"><i class="fab fa-github fa-1x"></i></a>
+							
+            
+							
+            
+					</p>
+				</div>
+			</div>
+			
+
+			
+
+			
+
+		</div> 
+	</div>
+</footer>
+
+<footer id="underfooter">
+	<div class="container">
+		<div class="row">
+
+			<div class="col-md-6 widget">
+				<div class="widget-body">
+					<p>...</p>
+				</div>
+			</div>
+
+			<div class="col-md-6 widget">
+				<div class="widget-body">
+					<p class="text-right">
+						Copyright &copy; 2021, Irene Wang<br>
+						Design: <a href="http://www.gettemplate.com" rel="designer">Initio by GetTemplate</a> - 
+						Powered by: <a href="https://gohugo.io/" rel="poweredby">Hugo</a>
+					</p>
+				</div>
+			</div>
+
+		</div> 
+	</div>
+</footer>
+
+
+
+
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+
+
+
+
+<script src="https://ireneyrzd.github.io/js/bundle.min.f4a965ad0a8118e32f8f0f158ff3aadbacf700934c22286a1a5b245105e9006da73a873b001a160db22498909c1df14d1f835dba5ad76f80b32b0234182b2a58.js" integrity="sha512-9KllrQqBGOMvjw8Vj/Oq26z3AJNMIihqGlskUQXpAG2nOoc7ABoWDbIkmJCcHfFNH4NdulrXb4CzKwI0GCsqWA=="></script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'GA-000000000-0', 'auto');
+  ga('send', 'pageview');
+</script>
+
+</body>
+</html>
+
+    
+  </body>
+  
+</html>

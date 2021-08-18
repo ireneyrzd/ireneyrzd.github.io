@@ -6,7 +6,16 @@
     <description>Recent content in Machine Learning Brainstorms on Irene&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 26 Jul 2021 12:00:00 +0000</lastBuildDate><atom:link href="https://ireneyrzd.github.io/tags/machine-learning-brainstorms/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 15 Aug 2021 12:00:00 +0000</lastBuildDate><atom:link href="https://ireneyrzd.github.io/tags/machine-learning-brainstorms/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Music Dataset Introduction</title>
+      <link>https://ireneyrzd.github.io/post/music-dataset-introduction/</link>
+      <pubDate>Sun, 15 Aug 2021 12:00:00 +0000</pubDate>
+      
+      <guid>https://ireneyrzd.github.io/post/music-dataset-introduction/</guid>
+      <description>Why Music Dataset? Music Dataset is an free, public online platform that hopes to solve the subjecivity in music by collecting response of abstract components in classical music from a variety of audience. It seeks to take advantage the online setting where people from all over the world can be easily connected through one projects. The viewers are asked to place descriptive tags onto music according to the unique response that the particular repotoires evokes in them.</description>
+    </item>
+    
     <item>
       <title>MusicNet Brainstorm and Analysis</title>
       <link>https://ireneyrzd.github.io/post/musicnet-brainstorm-and-analysis/</link>
