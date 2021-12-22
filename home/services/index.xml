@@ -1,45 +1,45 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Services on Irene&#39;s Blog</title>
+    <title>Project Summaries on Irene&#39;s Blog</title>
     <link>https://ireneyrzd.github.io/home/services/</link>
-    <description>Recent content in Services on Irene&#39;s Blog</description>
+    <description>Recent content in Project Summaries on Irene&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language><atom:link href="https://ireneyrzd.github.io/home/services/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Application development</title>
-      <link>https://ireneyrzd.github.io/home/services/service3/</link>
+      <title>1. Music Dataset</title>
+      <link>https://ireneyrzd.github.io/home/services/md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ireneyrzd.github.io/home/services/service3/</guid>
-      <description>&lt;p&gt;I don&amp;rsquo;t think they tried to market it to the billionaire, spelunking, base-jumping crowd. i did the same thing to gandhi, he didn&amp;rsquo;t eat for three weeks. i once heard a wise man say there are no perfect men.&lt;/p&gt;</description>
+      <guid>https://ireneyrzd.github.io/home/services/md/</guid>
+      <description>&lt;p&gt;A platform that collects people&amp;rsquo;s emotional responses after listening to classical music. By labeling music with traditionally subjective tags, I hope the dataset can solve the complexity involved in the abstract components of music, making it compatible to be analyzed and classified by computer.&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>Custom website design</title>
-      <link>https://ireneyrzd.github.io/home/services/service1/</link>
+      <title>2. Market Youth Musicians</title>
+      <link>https://ireneyrzd.github.io/home/services/mym/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ireneyrzd.github.io/home/services/service1/</guid>
-      <description>&lt;p&gt;I don&amp;rsquo;t think they tried to market it to the billionaire, spelunking, base-jumping crowd. i did the same thing to gandhi, he didn&amp;rsquo;t eat for three weeks. i once heard a wise man say there are no perfect men.&lt;/p&gt;</description>
+      <guid>https://ireneyrzd.github.io/home/services/mym/</guid>
+      <description>&lt;p&gt;A student run organization in the bay area that provide performance opportunities for youth musicians playing at the Farmers Market while raising money for charities.&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>SEO &amp; SEM services</title>
-      <link>https://ireneyrzd.github.io/home/services/service4/</link>
+      <title>3. Predict Next Word</title>
+      <link>https://ireneyrzd.github.io/home/services/pnw/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ireneyrzd.github.io/home/services/service4/</guid>
-      <description>&lt;p&gt;I don&amp;rsquo;t think they tried to market it to the billionaire, spelunking, base-jumping crowd. i did the same thing to gandhi, he didn&amp;rsquo;t eat for three weeks. i once heard a wise man say there are no perfect men.&lt;/p&gt;</description>
+      <guid>https://ireneyrzd.github.io/home/services/pnw/</guid>
+      <description>&lt;p&gt;Research Project done with Aspiring Scholars Directed Research Program. Natural language processing that uses LSTM to predict the next words in a sentence given a starter string.&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>Wordpress integration</title>
-      <link>https://ireneyrzd.github.io/home/services/service2/</link>
+      <title>4. Music Generation</title>
+      <link>https://ireneyrzd.github.io/home/services/mg/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ireneyrzd.github.io/home/services/service2/</guid>
-      <description>&lt;p&gt;I don&amp;rsquo;t think they tried to market it to the billionaire, spelunking, base-jumping crowd. i did the same thing to gandhi, he didn&amp;rsquo;t eat for three weeks. i once heard a wise man say there are no perfect men.&lt;/p&gt;</description>
+      <guid>https://ireneyrzd.github.io/home/services/mg/</guid>
+      <description>&lt;p&gt;Research project done with Summer Research Academies in UCSB. Predicts the next few notes of a musical melody with an initial input using an LSTM model.&lt;/p&gt;</description>
     </item>
     
   </channel>

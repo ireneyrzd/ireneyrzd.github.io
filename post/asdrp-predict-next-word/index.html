@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  	<meta charset="utf-8">
+  	<meta name="viewport"    content="width=device-width, initial-scale=1.0">
+  	<meta name="description" content="">
+  	<meta name="author"      content="map[]">
+    
+    	<title>ASDRP Predict Next Word</title>
+	<link rel="shortcut icon" href="https://ireneyrzd.github.io/images/Irene_favicon.png">
+
+	
+	<link href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.no-icons.min.css" rel="stylesheet">
+	
+	
+	<script defer src="https://use.fontawesome.com/releases/v5.0.11/js/all.js" integrity="sha384-ImVoB8Er8knetgQakxuBS4G3RSkyD8IZVVQCAnmRJrDwqJFYUE4YOv+DbIofcO9C" crossorigin="anonymous"></script>
+	
+	
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alice|Open+Sans:400,300,700">
+	
+	
+  
+  <link rel="stylesheet" href="https://ireneyrzd.github.io/css/styles.min.64a6643395c6bf1ec6fff31d6429046b3ad467e58a279ff252dc019edd80a87051cf90b7fe2d589277def72d84602dcbc7115e2e17a94db3a8838336986a0ae3.css" integrity="sha512-ZKZkM5XGvx7G//MdZCkEazrUZ&#43;WKJ5/yUtwBnt2AqHBRz5C3/i1Yknfe9y2EYC3LxxFeLhepTbOog4M2mGoK4w==">
+
+   
+  
+
+  </head>
+  
+  <body class="home">
+
+    
+      <header id="header">
+  <div id="head" class="parallax" data-parallax-speed="2" style="background-image:url('https://ireneyrzd.github.io/images/Irene_banner.jpg');">
+    <h1 id="logo" class="text-center">
+      <img class='img-circle' src="https://ireneyrzd.github.io/images/avatar.jpg" alt="">
+      <span class="title">Irene Wang</span>
+      <span class="tagline">A highschooler eager about the future<br>
+        <a href="mailto:yiranirenewang@gmail.com">yiranirenewang@gmail.com</a>
+      </span>
+   </h1>
+</div>
+
+<nav class="navbar navbar-default navbar-sticky">
+    <div class="container-fluid">
+
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="true">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+
+        <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1">
+
+            <ul class="nav navbar-nav">
+            
+                
+                <li>
+                    <a href="/">home</a>
+                </li>
+                
+            
+                
+                <li>
+                    <a href="/tags/">tags</a>
+                </li>
+                
+            
+                
+                <li>
+                    <a href="/post/">blog</a>
+                </li>
+                
+            
+                
+                <li>
+                    <a href="/about/">About ME</a>
+                </li>
+                
+            
+            </ul>
+
+        </div> 
+        
+    </div>
+</nav>
+
+</header>
+    
+ 
+    
+<main id="main">
+
+	<div class="container">
+
+		<div class="row topspace">
+			<div class="col-sm-8 col-sm-offset-2">
+
+ 				<article class="post">
+					<header class="entry-header">
+ 						<div class="entry-meta">
+               <span class="posted-on">
+                  <time class="entry-date published" datetime="June 120, 202012">December 20, 2021</time>
+               </span>
+ 						</div>
+ 						<h1 class="entry-title"><a href="https://ireneyrzd.github.io/post/asdrp-predict-next-word/" rel="bookmark">ASDRP Predict Next Word</a></h1>
+					</header>
+					<div class="entry-content">
+						<p>In the fall of 2021, I joined Aspiring Scholars Directed Research Program <a href="https://www.asdrp.org/">(ASDRP)</a> under its Computer Science &amp; Engineering department and more specifically, data science, with my mentor Suresh Subramaniam.</p>
+<p>Over the course three month, my group and I put together a natural language project that can predict the next word given an initial string and presented our finding in the program&rsquo;s weekly Colloquia meeting to an audience of around 200 people.</p>
+<figure><img src="/images/PredictNextWord/PNW.png"
+         alt="My project being featured on the ASDRP website (https://www.asdrp.org/colloquia)"/><figcaption>
+            <p>My project being featured on the ASDRP website (<a href="https://www.asdrp.org/colloquia">https://www.asdrp.org/colloquia</a>)</p>
+        </figcaption>
+</figure>
+
+<p>Below I have included a summary of our research and findings:</p>
+<h1 id="predict-next-word-text-generation-using-lstm-in-a-professional-biomedical-context">Predict Next Word: Text Generation Using LSTM in a Professional Biomedical Context</h1>
+<h2 id="background">Background</h2>
+<figure><img src="/images/PredictNextWord/fig1.png"
+         alt="Figure 1: A generated text"/><figcaption>
+            <p>Figure 1: A generated text</p>
+        </figcaption>
+</figure>
+
+<p>Machine learning is the study of computer algorithms that can be used for discovering patterns and sequences, then make predictions with its findings. Part of machine learning is neural networks which are systems that recognize patterns and solve problems. We used a type of neural network,LSTM, or long short-term memory. LSTM and other language models are commonly used in the world around us. We use it all the time when typing messages to send to friends, emails to teachers, and typing an assignment on Google Docs. Suggestions pop up as you are writing your message. LSTM can remember the order dependence in a sequence and come up with predictions for text generation. The image on this slide is a picture of one example of machine learning. When the user types “LSTM”, it uses previous searches with the same beginning and gives the user suggestions of what they might be looking for. Although sometimes the range of what we are looking for is too specific and the model is not able to return us what we are looking for. Our goal for the project is to create a model that uses bidirectional LSTM to predict text in a biomedical context. With the more terminology it is fed, it will make the results and suggestions even better.
+<figure><img src="/images/PredictNextWord/fig2.png"
+         alt="Figure 2: Text prediction on Google search engine"/><figcaption>
+            <p>Figure 2: Text prediction on Google search engine</p>
+        </figcaption>
+</figure>
+</p>
+<h2 id="related-studies">Related studies</h2>
+<p>LSTM is commonly used in Gmail, iMessages, Google Docs, and many more. In this photo, Google predicts what you might say using previous user inputs. iMessages does the same, as it suggests words that you have said many times with the phrase that you have typed. Such as if I type “how are” , it may suggest “you” because I have typed and sent that message quite a lot of times.
+BERT is another language model that gives the user relevant searches based on what they have have looked for before.
+One usage of language models is BERT. It is an open source framework that uses surrounding text to figure out what the user may be saying. Google uses BERT for it’s search engine and the suggestions of what you may be searching for.
+Another language model that is quite common is GPT2. It contains lots of data from the internet which means it has a lot of potential uses. Although it is mainly used for text autocorrection, such as “Autocorrect” on iMessages and Google Chat / Hangouts.</p>
+<figure><img src="/images/PredictNextWord/fig3.png"
+         alt="Figure 3: Text suggestion on Gmail"/><figcaption>
+            <p>Figure 3: Text suggestion on Gmail</p>
+        </figcaption>
+</figure>
+
+<h2 id="significance">Significance</h2>
+<p>The model predicts what might be written next with text generation. It helps us with writing efficient, grammatically correct, and good terminology papers. Text generation can also fix spelling mistakes, and is often used in chatbots or automated journalism instead of manually written. It also lets us use voice overs on websites for our comfortability. If someone has a loss of hearing, they can use the transcripts of a page to help them understand it.</p>
+<p>For our project, we would like to investigate how to use deep learning to predict the next word in a phrase that correctly matches the professional context it is written in. Specially, we tried curating the sources to include biomedical terms.</p>
+<h2 id="methodology">Methodology</h2>
+<h3 id="dataset">Dataset</h3>
+<p>We selected the English Wikipedia as the training data source our work.  As of December 7, when I checked earlier,  this dataset consists of over 4 billion words and 6.4 million articles. This dataset is fairly common for text generation, being used in many projects such as Google’s BERT algorithm that was introduced. We chose Wikipedia because not only does it provide the large and extensive network of grammatically and syntactically correct work written in modern English that would ensure the accuracy of our training result, the wide range of topic areas covered by articles found on the website also satisfy our project goal of narrowing down the scope of text generation to specific professional contexts.</p>
+<h3 id="bi-directional-long-short-term-memory-bi-lsmt">Bi-Directional Long Short Term Memory (Bi-LSMT)</h3>
+<p>In-text generation, we try to predict the next character or word of the sequence. The text data generally considered as a sequence of data. For predicting data in the sequence we used deep learning models like RNN or LSTM. We chose LSTM is over RNN in this because RNN has problems such as vanishing and exploding gradients due to backpropagation through time. In addition, it is dependent on context only from the past and does not memorize data for a long time, tending to forget their previous inputs, thus making is not very compatible with largest datasets<br>
+Since in text generation we have to memorize a large amount of previous data. So for this purpose LSTM is preferred, which takes phrases of text, which are just sequences of words, and uses it to predict the next word. And output a matrix of probability for each word from the dictionary to be next of the given sequence The model will also learn how much similarity is between each word or character and will calculate the probability of each. Using that we will predict or generate the next word or character of sequence. In addition, LSTM performs better in distinguishing between important and unimportant information.<br>
+Finally Bidirectional LSTMs is a special case of LSTM that  can be used to train two sides, instead of one side of the input sequence. First from left to right on the input sequence and the second in reversed order of the input sequence. It provides one more context to the word to fit in the right context from words coming after and before, this results in faster and fully learning and solving a problem.</p>
+<h3 id="preprocessing">Preprocessing</h3>
+<p>Before the training begins, the text must be edited to remove unnecessary and unneeded symbols. Such as empty strings, line return, Numbers, punctuations, unwanted, and non-English words</p>
+<p>The next step. One of the important normalization methods is called tokenization. It is simply segmenting the continuous running text into individual segments of words. The approach utilized in our projects split inputs over every space and assign an identifier to each word.
+<figure><img src="/images/PredictNextWord/fig5.png"
+         alt="Figure 5: Tokenization step example"/><figcaption>
+            <p>Figure 5: Tokenization step example</p>
+        </figcaption>
+</figure>
+</p>
+<p>Even after converting sentences to numerical values, there’s still an issue of providing equal length inputs to our neural networks — not every sentence will be the same length! There are two main ways you can process the input sentences to achieve this — padding the shorter sentences with zeroes, and truncating some of the longer sequences to be shorter.<br>
+So now, our line will be represented by a set of padded input sequences that look like example above. Now, that we have our sequences, the next thing we need to do is turn them into x and y, our input values and their labels. When you think about it now that the sentences are represented in this way, all we have to do is take all but the last character as the x and then use the last character as the y on our label.<br>
+We do like this above, where for the first sequence, everything up to the 4 is our input and the 2 is our label.<br>
+And similarly, here for the second sequence where the input is two words and the is the third word, tokenized to 66.<br>
+If we consider this list of tokens as a sentence, then the x is the list up to the last value and the label is the last value which in this case is 70. The y is as one-hot encoded array whether length is the size of the corpus of words and the valaue that is set to one is the one at the index of the label which in this cases is the 70th element.<br>
+So now we can build a neural network that can, given a sentence, predict the next word.
+<figure><img src="/images/PredictNextWord/fig6.png"
+         alt="Figure 6: Padding and truncating"/><figcaption>
+            <p>Figure 6: Padding and truncating</p>
+        </figcaption>
+</figure>
+</p>
+<p><figure><img src="/images/PredictNextWord/fig7.png"
+         alt="Figure 7: Predicting a text sequence from a random input sequence"/><figcaption>
+            <p>Figure 7: Predicting a text sequence from a random input sequence</p>
+        </figcaption>
+</figure>
+'
+This is how the model generates a sequence of text.
+First, a random x sequence is selected from the model.  It is fed into the model, and the model outputs a one-hot sequence, which is converted to its corresponding number.  The encoding output is not shown in this diagram, just the decoded value, for simplicity since this diagram is already pretty dense.<br>
+The output of the model is then added to an output array. Before the next prediction, the first element in the x sequence is removed, and the output value is normalized and added to the end. This process is repeated over and over, and at the end, the output array is converted to its corresponding vocabulary term</p>
+<h2 id="result">Result</h2>
+<h3 id="training-data">Training Data</h3>
+<p><figure><img src="/images/PredictNextWord/fig8.png"
+         alt="Figure 8. Loss and accuracy during a training of 10 epochs"/><figcaption>
+            <p>Figure 8. Loss and accuracy during a training of 10 epochs</p>
+        </figcaption>
+</figure>
+'
+The graphs in figure 8 show the accuracy and loss of the model training with 10 epochs.  The amount of time it takes for the model to optimize will ultimately depend on the length of the training data and amount of vocabulary. In our case, we trained the graphs in figure 8 with a vocabulary length of 1566 elements and a data size of about 100 x and y pairs.</p>
+<h3 id="example-outputs">Example outputs</h3>
+<p>Our LSTM model was successful at generating phrases. Here are two example outputs tried at</p>
+<ul>
+<li>Epoch num: 12</li>
+<li>Batch size: 196</li>
+<li>Vocab size: 1566</li>
+<li>Accuracy: 0.962</li>
+<li>Loss: 0. 235
+<figure><img src="/images/PredictNextWord/fig9_1.png"
+         alt="Figure 9.1 example output"/><figcaption>
+            <p>Figure 9.1 example output</p>
+        </figcaption>
+</figure>
+'
+<figure><img src="/images/PredictNextWord/fig9_2.png"
+         alt="Figure 9.2 example output"/><figcaption>
+            <p>Figure 9.2 example output</p>
+        </figcaption>
+</figure>
+'</li>
+</ul>
+<h3 id="conclusion">Conclusion</h3>
+<p>Our Bidirectional LSTM model was successful at generating the next words in a string.  The model was able to produce sequences of syntactically and grammatically correct phrases nicely and consistently. In addition, the selection of data input helped provide an output that is curated to the context of biomedical professions. Unlike many other language models, ours is able to predict and correctly incorporate nomenclatures in the desired professional biomedical sphere.</p>
+<h3 id="future-area-of-improvements">Future Area of improvements</h3>
+<p>While our project focuses only on nomenclatures from the biomedical sphere, future research can improve upon this study by training the model on different professions for receive context-fitted outputs on a variety . If we can filter the input and add descriptive tags to the different fed into the training model, we can reduce the scope of the context of the text, thus then the generated output would match the desired sphere inputted by the user.</p>
+<p>In addition, more LSTM layers can be added in order to detect more sophisticated sentence structure.  Additional techniques such as reinforcement learning can be used to improve the accuracy model as well,  and a context vector can be added to help the model better understand the context in which the sentence is written in.</p>
+<h2 id="acknowledgement">Acknowledgement</h2>
+<p>I wish to thank ASDRP, its stuff, and all of its sponsors or presenting me the opportunity to complete and present our research, and Mr. Suresh Subramaniam for instruction on deep learning, guidance throughout the completion of this project, and important pointers that helped solve a major debugging error during the process. Finally, my three other teammates Apoorva Kulshreshtha, Aditi Ghosh, Aditya Venkatraman for helping me with the brainstorm and research phase of the project.</p>
+<p>My code can be found at: <a href="https://github.com/ireneyrzd/PredictNextWord">https://github.com/ireneyrzd/PredictNextWord</a></p>
+<h2 id="references">References</h2>
+<ol>
+<li><a href="https://arxiv.org/abs/1908.04332">https://arxiv.org/abs/1908.04332</a></li>
+<li><a href="https://arxiv.org/abs/1810.04805">https://arxiv.org/abs/1810.04805</a></li>
+<li><a href="https://towardsdatascience.com/bert-explained-state-of-the-art-language-model-for-nlp-f8b21a9b6270">https://towardsdatascience.com/bert-explained-state-of-the-art-language-model-for-nlp-f8b21a9b6270</a></li>
+<li><a href="https://www.analyticsvidhya.com/blog/2021/08/predict-the-next-word-of-your-text-using-long-short-term-memory-lstm/">https://www.analyticsvidhya.com/blog/2021/08/predict-the-next-word-of-your-text-using-long-short-term-memory-lstm/</a></li>
+<li><a href="https://medium.com/analytics-vidhya/nlp-word-prediction-by-using-bidirectional-lstm-9c01c24b2725">https://medium.com/analytics-vidhya/nlp-word-prediction-by-using-bidirectional-lstm-9c01c24b2725</a></li>
+<li><a href="https://predictivehacks.com/word-based-text-generation/">https://predictivehacks.com/word-based-text-generation/</a></li>
+<li><a href="https://www.tensorflow.org/text/tutorials/text_generation">https://www.tensorflow.org/text/tutorials/text_generation</a></li>
+<li><a href="https://towardsdatascience.com/nlp-text-generation-through-bidirectional-lstm-model-9af29da4e520">https://towardsdatascience.com/nlp-text-generation-through-bidirectional-lstm-model-9af29da4e520</a></li>
+<li><a href="https://towardsdatascience.com/spamilton-text-generation-with-lstms-and-hamilton-lyrics-ec7938ae830c">https://towardsdatascience.com/spamilton-text-generation-with-lstms-and-hamilton-lyrics-ec7938ae830c</a></li>
+<li><a href="https://www.kaggle.com/shivamb/beginners-guide-to-text-generation-using-lstms">https://www.kaggle.com/shivamb/beginners-guide-to-text-generation-using-lstms</a></li>
+<li><a href="https://www.analyticsvidhya.com/blog/2021/08/predict-the-next-word-of-your-text-using-long-short-term-memory-lstm/">https://www.analyticsvidhya.com/blog/2021/08/predict-the-next-word-of-your-text-using-long-short-term-memory-lstm/</a></li>
+<li><a href="https://www.youtube.com/watch?v=vyOgWhwUmec">https://www.youtube.com/watch?v=vyOgWhwUmec</a></li>
+<li><a href="https://towardsdatascience.com/exploring-the-next-word-predictor-5e22aeb85d8f">https://towardsdatascience.com/exploring-the-next-word-predictor-5e22aeb85d8f</a></li>
+<li><a href="https://bansalh944.medium.com/text-generation-using-lstm-b6ced8629b03">https://bansalh944.medium.com/text-generation-using-lstm-b6ced8629b03</a></li>
+<li><a href="https://towardsdatascience.com/how-the-lstm-improves-the-rnn-1ef156b75121">https://towardsdatascience.com/how-the-lstm-improves-the-rnn-1ef156b75121</a></li>
+<li><a href="https://www.toptal.com/deep-learning/exploring-pre-trained-models">https://www.toptal.com/deep-learning/exploring-pre-trained-models</a></li>
+</ol>
+
+					</div>
+				</article>
+
+			</div>
+		</div> 
+
+		<div class="row">
+			<div class="col-sm-8 col-sm-offset-2">
+
+				<div id="share">
+					
+							<div class="row">
+    <div class="col-xs-12 col-sm-offset-1 col-sm-10 col-md-offset-2 col-md-8">
+        
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+                    <div data-network="" data-title=" >> " class="st-custom-button"> <i class="fab fa-github fa-2x"></i> </div>
+                
+            
+                
+                    <div data-network="" data-title=" >> " class="st-custom-button"> <i class="fab fa-youtube fa-2x"></i> </div>
+                
+            
+                
+                    <div data-network="email" data-title=" >> " class="st-custom-button"> <i class="fas fa-envelope-square fa-2x"></i> </div>
+                
+            
+            <div data-network="sharethis" data-title="ASDRP Predict Next Word >> " class="st-custom-button"> <i class="fas fa-share-alt-square fa-2x"></i> </div>
+        
+    </div>
+</div> 
+
+					
+				</div>
+			</div>
+		</div> 
+		<div class="clearfix"></div>
+
+		<div class="row">
+			<div class="col-sm-8 col-sm-offset-2">
+
+				<div id="comments">
+					
+							<div id="disqus_thread"></div>
+<script>
+
+
+
+
+
+(function() { 
+var d = document, s = d.createElement('script');
+s.src = 'https:///embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+					
+				</div>
+			</div>
+		</div> 
+		<div class="clearfix"></div>
+
+	</div>	
+
+</main>
+
+    
+    
+      <footer id="footer">
+	<div class="container">
+		<div class="row">
+			
+			<div class="col-md-3 widget">
+				<h3 class="widget-title">Contact</h3>
+				<div class="widget-body">
+					<p>...<br>
+					<a href="mailto:yiranirenewang@gmail.com">yiranirenewang@gmail.com</a><br>
+					<br>
+					...
+					</p>
+				</div>
+			</div>
+			
+
+			
+			<div class="col-md-3 widget">
+				<h3 class="widget-title">Follow me</h3>
+				<div class="widget-body">
+					<p class="follow-me-icons">
+            
+							
+            
+							
+            
+							
+            
+							
+            
+							
+            
+							
+            
+							
+								<a href="https://github.com/ireneyrzd" target="_blank"><i class="fab fa-github fa-1x"></i></a>
+							
+            
+							
+								<a href="https://www.youtube.com/channel/UCdCthz7zRhdgdfVIIm7wpWA" target="_blank"><i class="fab fa-youtube fa-1x"></i></a>
+							
+            
+							
+								<a href="mailto:some.email@somewhere.com" target="_blank"><i class="fas fa-envelope-square fa-1x"></i></a>
+							
+            
+					</p>
+				</div>
+			</div>
+			
+
+			
+
+			
+
+		</div> 
+	</div>
+</footer>
+
+<footer id="underfooter">
+	<div class="container">
+		<div class="row">
+
+			<div class="col-md-6 widget">
+				<div class="widget-body">
+					<p>...</p>
+				</div>
+			</div>
+
+			<div class="col-md-6 widget">
+				<div class="widget-body">
+					<p class="text-right">
+						Copyright &copy; 2021, Irene Wang<br>
+						Design: <a href="http://www.gettemplate.com" rel="designer">Initio by GetTemplate</a> - 
+						Powered by: <a href="https://gohugo.io/" rel="poweredby">Hugo</a>
+					</p>
+				</div>
+			</div>
+
+		</div> 
+	</div>
+</footer>
+
+
+
+
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+
+
+
+
+<script src="https://ireneyrzd.github.io/js/bundle.min.f4a965ad0a8118e32f8f0f158ff3aadbacf700934c22286a1a5b245105e9006da73a873b001a160db22498909c1df14d1f835dba5ad76f80b32b0234182b2a58.js" integrity="sha512-9KllrQqBGOMvjw8Vj/Oq26z3AJNMIihqGlskUQXpAG2nOoc7ABoWDbIkmJCcHfFNH4NdulrXb4CzKwI0GCsqWA=="></script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'GA-000000000-0', 'auto');
+  ga('send', 'pageview');
+</script>
+
+</body>
+</html>
+
+    
+  </body>
+  
+</html>
