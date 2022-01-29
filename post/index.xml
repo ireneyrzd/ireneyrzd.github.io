@@ -6,7 +6,53 @@
     <description>Recent content in Posts on Irene&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 20 Dec 2021 12:00:00 +0000</lastBuildDate><atom:link href="https://ireneyrzd.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 05 Jan 2022 12:00:00 +0000</lastBuildDate><atom:link href="https://ireneyrzd.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Math Counts Handout - Advanced Topics</title>
+      <link>https://ireneyrzd.github.io/post/mc21-h5/</link>
+      <pubDate>Wed, 05 Jan 2022 12:00:00 +0000</pubDate>
+      
+      <guid>https://ireneyrzd.github.io/post/mc21-h5/</guid>
+      <description>Advanced Series
+  #the-canvas { border: 1px solid black; direction: ltr; width: 100%; height: auto; display: none; } #paginator { display: none; text-align: center; margin-bottom: 10px; } #loadingWrapper { display: none; justify-content: center; align-items: center; width: 100%; height: 350px; } #loading { display: inline-block; width: 50px; height: 50px; border: 3px solid #d2d0d0;; border-radius: 50%; border-top-color: #383838; animation: spin 1s ease-in-out infinite; -webkit-animation: spin 1s ease-in-out infinite; } @keyframes spin { to { -webkit-transform: rotate(360deg); } } @-webkit-keyframes spin { to { -webkit-transform: rotate(360deg); } }  Previous Next &amp;nbsp; &amp;nbsp; Page:  /       window.</description>
+    </item>
+    
+    <item>
+      <title>Januaray 2022 Week 1</title>
+      <link>https://ireneyrzd.github.io/post/jan-week-1/</link>
+      <pubDate>Tue, 04 Jan 2022 12:00:00 +0000</pubDate>
+      
+      <guid>https://ireneyrzd.github.io/post/jan-week-1/</guid>
+      <description>First day of school today, it was really nice seeing friends and teachers today. Also this week is Student Appriciation Week and I got a cool BISV canvas bag. It was really nice seeing everyone walk around campus with their bag
+Jan 4, 2022
+ 5:45 got home 5:45 - 6:00 reviewed material for Math Counts session 6:00 - 7:00 BISV Math Counts review session 5, I talked about advanced topic such as mass points, advanced probablity, and intersecting chords/secants and other circle topics 7:30 - 8:00 ate dinner, mommy cooked delicious fried yellow croaker, played with brother  Jan 5, 2022</description>
+    </item>
+    
+    <item>
+      <title>Goals for 2022</title>
+      <link>https://ireneyrzd.github.io/post/2022-resolutions/</link>
+      <pubDate>Mon, 03 Jan 2022 12:00:00 +0000</pubDate>
+      
+      <guid>https://ireneyrzd.github.io/post/2022-resolutions/</guid>
+      <description>2021 Reflection
+ Proud  SRA Lots of progress in CS learning and projects Spent lots of value time with brother   Not Proud  Not very time efficient Not satisfied with AP scores    2022
+ Last 2 year of high school Time of college admission!!!  Goals
+ All 5 on AP  which still need some work so heres a daily plan/goal for myself</description>
+    </item>
+    
+    <item>
+      <title>AI and Music</title>
+      <link>https://ireneyrzd.github.io/post/ai-and-music/</link>
+      <pubDate>Thu, 23 Dec 2021 12:00:00 +0000</pubDate>
+      
+      <guid>https://ireneyrzd.github.io/post/ai-and-music/</guid>
+      <description>Professor Roger B. Dannenberg
+  Co-creator of Audacity! Future in AI and Music
+  Humans are driven by an innate desire to achieve automation, this includes the field of music
+  Three main areas of exploration
+ create sound  Generate new type of sound by incorporating computer to make new instruments  Example  Utilize robotics to preform instruments Create electronic instruments such as electric piano and guitar       create music  Computer-generated music score   re-create and extend music performance practice  By inputting a huge database of repertoires by a certain composer and using a machine learning model to have the computer “learn” the style of the composer and to create music in the style of deceased artists      Combination of performance model and instrument model to create performances from music scores.</description>
+    </item>
+    
     <item>
       <title>ASDRP Predict Next Word</title>
       <link>https://ireneyrzd.github.io/post/asdrp-predict-next-word/</link>
@@ -14,7 +60,57 @@
       
       <guid>https://ireneyrzd.github.io/post/asdrp-predict-next-word/</guid>
       <description>In the fall of 2021, I joined Aspiring Scholars Directed Research Program (ASDRP) under its Computer Science &amp;amp; Engineering department and more specifically, data science, with my mentor Suresh Subramaniam.
-Over the course three month, my group and I put together a natural language project that can predict the next word given an initial string and presented our finding in the program&amp;rsquo;s weekly Colloquia meeting to an audience of around 200 people.</description>
+Over the course of three month, my group and I put together a natural language project that can predict the next word given an initial string and presented our findings in the program&amp;rsquo;s weekly Colloquia meeting to an audience of around 200 people.</description>
+    </item>
+    
+    <item>
+      <title>Math Counts Handout - Number Sense</title>
+      <link>https://ireneyrzd.github.io/post/mc21-h2/</link>
+      <pubDate>Sat, 20 Nov 2021 12:00:00 +0000</pubDate>
+      
+      <guid>https://ireneyrzd.github.io/post/mc21-h2/</guid>
+      <description>Beginner Series
+  #the-canvas { border: 1px solid black; direction: ltr; width: 100%; height: auto; display: none; } #paginator { display: none; text-align: center; margin-bottom: 10px; } #loadingWrapper { display: none; justify-content: center; align-items: center; width: 100%; height: 350px; } #loading { display: inline-block; width: 50px; height: 50px; border: 3px solid #d2d0d0;; border-radius: 50%; border-top-color: #383838; animation: spin 1s ease-in-out infinite; -webkit-animation: spin 1s ease-in-out infinite; } @keyframes spin { to { -webkit-transform: rotate(360deg); } } @-webkit-keyframes spin { to { -webkit-transform: rotate(360deg); } }  Previous Next &amp;nbsp; &amp;nbsp; Page:  /       window.</description>
+    </item>
+    
+    <item>
+      <title>Guts round practice for HMMT and BMT</title>
+      <link>https://ireneyrzd.github.io/post/gut-practice/</link>
+      <pubDate>Fri, 12 Nov 2021 12:00:00 +0000</pubDate>
+      
+      <guid>https://ireneyrzd.github.io/post/gut-practice/</guid>
+      <description>A set of practice Guts Round questions, curated toward HMMT and BMT
+  #the-canvas { border: 1px solid black; direction: ltr; width: 100%; height: auto; display: none; } #paginator { display: none; text-align: center; margin-bottom: 10px; } #loadingWrapper { display: none; justify-content: center; align-items: center; width: 100%; height: 350px; } #loading { display: inline-block; width: 50px; height: 50px; border: 3px solid #d2d0d0;; border-radius: 50%; border-top-color: #383838; animation: spin 1s ease-in-out infinite; -webkit-animation: spin 1s ease-in-out infinite; } @keyframes spin { to { -webkit-transform: rotate(360deg); } } @-webkit-keyframes spin { to { -webkit-transform: rotate(360deg); } }  Previous Next &amp;nbsp; &amp;nbsp; Page:  /       window.</description>
+    </item>
+    
+    <item>
+      <title>Math Counts Handout - Algebra and Logic Problems</title>
+      <link>https://ireneyrzd.github.io/post/mc21-h1/</link>
+      <pubDate>Tue, 12 Oct 2021 12:00:00 +0000</pubDate>
+      
+      <guid>https://ireneyrzd.github.io/post/mc21-h1/</guid>
+      <description>Beginner Series
+  #the-canvas { border: 1px solid black; direction: ltr; width: 100%; height: auto; display: none; } #paginator { display: none; text-align: center; margin-bottom: 10px; } #loadingWrapper { display: none; justify-content: center; align-items: center; width: 100%; height: 350px; } #loading { display: inline-block; width: 50px; height: 50px; border: 3px solid #d2d0d0;; border-radius: 50%; border-top-color: #383838; animation: spin 1s ease-in-out infinite; -webkit-animation: spin 1s ease-in-out infinite; } @keyframes spin { to { -webkit-transform: rotate(360deg); } } @-webkit-keyframes spin { to { -webkit-transform: rotate(360deg); } }  Previous Next &amp;nbsp; &amp;nbsp; Page:  /       window.</description>
+    </item>
+    
+    <item>
+      <title>Math Counts Handout - Word Problems</title>
+      <link>https://ireneyrzd.github.io/post/mc20-h1/</link>
+      <pubDate>Tue, 12 Oct 2021 12:00:00 +0000</pubDate>
+      
+      <guid>https://ireneyrzd.github.io/post/mc20-h1/</guid>
+      <description>Beginner Series
+  #the-canvas { border: 1px solid black; direction: ltr; width: 100%; height: auto; display: none; } #paginator { display: none; text-align: center; margin-bottom: 10px; } #loadingWrapper { display: none; justify-content: center; align-items: center; width: 100%; height: 350px; } #loading { display: inline-block; width: 50px; height: 50px; border: 3px solid #d2d0d0;; border-radius: 50%; border-top-color: #383838; animation: spin 1s ease-in-out infinite; -webkit-animation: spin 1s ease-in-out infinite; } @keyframes spin { to { -webkit-transform: rotate(360deg); } } @-webkit-keyframes spin { to { -webkit-transform: rotate(360deg); } }  Previous Next &amp;nbsp; &amp;nbsp; Page:  /       window.</description>
+    </item>
+    
+    <item>
+      <title>Math Counts Handouts - Advanced Topics</title>
+      <link>https://ireneyrzd.github.io/post/mc20-h5/</link>
+      <pubDate>Tue, 12 Oct 2021 12:00:00 +0000</pubDate>
+      
+      <guid>https://ireneyrzd.github.io/post/mc20-h5/</guid>
+      <description>Advanced Series
+  #the-canvas { border: 1px solid black; direction: ltr; width: 100%; height: auto; display: none; } #paginator { display: none; text-align: center; margin-bottom: 10px; } #loadingWrapper { display: none; justify-content: center; align-items: center; width: 100%; height: 350px; } #loading { display: inline-block; width: 50px; height: 50px; border: 3px solid #d2d0d0;; border-radius: 50%; border-top-color: #383838; animation: spin 1s ease-in-out infinite; -webkit-animation: spin 1s ease-in-out infinite; } @keyframes spin { to { -webkit-transform: rotate(360deg); } } @-webkit-keyframes spin { to { -webkit-transform: rotate(360deg); } }  Previous Next &amp;nbsp; &amp;nbsp; Page:  /       window.</description>
     </item>
     
     <item>
