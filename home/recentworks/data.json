@@ -1,8 +1,26 @@
 [
     {
+        "id": 83,
+        "name": "Contemporary dance to Beethoven's Moonlight Sonata",
+        "image": "images/RecentWork/MoonLight.png",
+        "url": "https://youtu.be/4v0ti2gOr_I",
+        "items": [
+
+        ]
+    },
+    {
+        "id": 84,
+        "name": "Chopin Etude Op. 10 No. 5 in G Flat Major Black Keys",
+        "image": "images/RecentWork/BlackKey.png",
+        "url": "https://youtu.be/wP6rxFUEll0",
+        "items": [
+
+        ]
+    },
+    {
         "id": 85,
         "name": "Rachmaninoff, Etude-Tableaux Op. 39 No. 8: Analysis + Performance",
-        "image": "images/Rachmaninoff_etude.jpg",
+        "image": "images/RecentWork/Rachmaninoff_etude.jpg",
         "url": "https://www.youtube.com/watch?v=GCPrf20V0lo",
         "items": [
 
@@ -11,7 +29,7 @@
     {
         "id": 86,
         "name": "Prokofiev Piano Sonata Op. 14 No. 2 in d minor",
-        "image": "images/Prokofiev_sonata.jpg",
+        "image": "images/RecentWork/Prokofiev_sonata.jpg",
         "url": "https://youtu.be/EhVOAf4guMc",
         "items": [
 
@@ -19,27 +37,9 @@
         ]
     },
     {
-        "id": 87,
-        "name": "Romantic Romantic Romantic Romantic Romantic Romantic ",
-        "image": "images/Bach_PF3.jpg",
-        "url": "https://youtu.be/R7QnsvQWeAs",
-        "items": [
-
-        ]
-    },
-    {
-        "id": 88,
-        "name": "Classical",
-        "image": "images/Bach_PF3.jpg",
-        "url": "https://youtu.be/R7QnsvQWeAs",
-        "items": [
-
-        ]
-    },
-    {
         "id": 89,
         "name": "Bach Prelude and Fugue No.3 BWV 848, WTC 1",
-        "image": "images/Bach_PF3.jpg",
+        "image": "images/RecentWork/Bach_PF3.jpg",
         "url": "https://youtu.be/R7QnsvQWeAs",
         "items": [
 
@@ -47,9 +47,9 @@
     },
     {
         "id": 90,
-        "name": "Bach Prelude and Fugue No.3 BWV 848, WTC 1",
-        "image": "images/Bach_PF3.jpg",
-        "url": "https://youtu.be/R7QnsvQWeAs",
+        "name": "Sleeping Beauty - Lilac Fairy Variation",
+        "image": "images/RecentWork/Lilac.png",
+        "url": "https://youtu.be/0uOIDpndlIM",
         "items": [
 
         ]
@@ -57,7 +57,7 @@
     {
         "id": 91,
         "name": "The Nutcracker - Waltz of the Flowers Solo",
-        "image": "images/flower.png",
+        "image": "images/RecentWork/flower.png",
         "url": "https://youtu.be/z4RxqGo9bxo",
         "items": [
 
@@ -66,7 +66,7 @@
     {
         "id": 92,
         "name": "Liszt Grandes études de Paganini in a minor, S. 141 No. 6",
-        "image": "images/Listz_Etude.jpg",
+        "image": "images/RecentWork/Listz_Etude.jpg",
         "url": "https://youtu.be/ByJUv5pugQ8",
         "items": [
 
@@ -75,7 +75,7 @@
     {
         "id": 93,
         "name": "Liebermann Three Impromptus for Piano, Op. 68 No. 1",
-        "image": "images/Liebermann.png",
+        "image": "images/RecentWork/Liebermann.png",
         "url": "https://youtu.be/GzqbNYmUJ1A",
         "items": [
 
@@ -84,7 +84,7 @@
     {
         "id": 94,
         "name": "Moszkowsky, Spanish Dances Op. 12, No. 1",
-        "image": "images/SPdance.png",
+        "image": "images/RecentWork/SPdance.png",
         "url": "https://youtu.be/WzUSiMyBTgQ",
         "items": [
 
@@ -93,7 +93,7 @@
     {
         "id": 95,
         "name": "Beethoven “Pathetique” Sonata Op. 13 No. 8, Mvt I",
-        "image": "images/Beethoven_Pathetique.jpg",
+        "image": "images/RecentWork/Beethoven_Pathetique.jpg",
         "url": "https://youtu.be/5awLcvktxvY",
         "items": [
 
@@ -101,9 +101,9 @@
     },
     {
         "id": 96,
-        "name": "Baroque",
-        "image": "images/Bach_PF3.jpg",
-        "url": "https://youtu.be/R7QnsvQWeAs",
+        "name": "Bach Fugue in C Minor No.2, BWV 847 from WTC I",
+        "image": "images/RecentWork/Bach_F2.png",
+        "url": "https://youtu.be/E4HHBN7BVGA",
         "items": [
 
         ]
@@ -111,7 +111,7 @@
     {
         "id": 97,
         "name": "Villa-Lobos O Polichinelo",
-        "image": "images/Villa_Lobos.jpg",
+        "image": "images/RecentWork/Villa_Lobos.jpg",
         "url": "https://youtu.be/BgUc1YQVWBg",
         "items": [
 
@@ -120,7 +120,7 @@
     {
         "id": 98,
         "name": "Flute - 紫竹调 Purple Bamboo Melody",
-        "image": "images/purple_bamboo.png",
+        "image": "images/RecentWork/purple_bamboo.png",
         "url": "https://youtu.be/gFBUdDkja7I",
         "items": [
 
@@ -129,7 +129,7 @@
     {
         "id": 99,
         "name": "Liszt - Love Dream (Liebestraum) S. 541 No. 3 III",
-        "image": "images/Listz_Liebestraum.jpg",
+        "image": "images/RecentWork/Listz_Liebestraum.jpg",
         "url": "https://youtu.be/s6XvsHkj1e4",
         "items": [
 
@@ -138,7 +138,7 @@
     {
         "id": 100,
         "name": "Chopin Ballade Op. 23 No. 1 in g minor",
-        "image": "images/Chopin_Ballade.jpg",
+        "image": "images/RecentWork/Chopin_Ballade.png",
         "url": "https://youtu.be/mohtXM043-Y",
         "items": [
 
@@ -147,7 +147,7 @@
     {
         "id": 101,
         "name": "Romantic Flight figure Skating program",
-        "image": "images/flight.png",
+        "image": "images/RecentWork/flight.png",
         "url": "https://youtu.be/1AXi0ccef90",
         "items": [
 
