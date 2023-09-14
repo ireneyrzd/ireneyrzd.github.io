@@ -33,7 +33,7 @@ How?** Once template has been filled out, the static page can be build using cod
       
       <guid>https://ireneyrzd.github.io/post/linux-learning1-git-push/</guid>
       <description>What is Hugo? To push changes of website from .md to github through git First time:
-1. git init 2. git add . 3. git status 4. git commit -m &amp;quot;first commit&amp;quot; 5. git branch -M main 6. git remote add origin https://github.com/ireneyrzd/Homepage.git 7. git push -u origin main After origin and main has been initialized:
+1. git init 2. git add . 3. git status 4. git commit -m &amp;#34;first commit&amp;#34; 5. git branch -M main 6. git remote add origin https://github.com/ireneyrzd/Homepage.git 7. git push -u origin main After origin and main has been initialized:
 1. git status 2. git add &amp;lt;file&amp;gt; 3. git rm &amp;lt;file&amp;gt; 4. git status 5.</description>
     </item>
     

@@ -6,7 +6,7 @@
     <description>Recent content on Irene&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 28 Feb 2022 12:00:00 +0000</lastBuildDate><atom:link href="https://ireneyrzd.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 20 Nov 2022 12:00:00 +0000</lastBuildDate><atom:link href="https://ireneyrzd.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Download original template</title>
       <link>https://ireneyrzd.github.io/home/downloads/download1/</link>
@@ -17,41 +17,37 @@
     </item>
     
     <item>
-      <title>About ME 1.0</title>
+      <title>About ME</title>
       <link>https://ireneyrzd.github.io/about1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ireneyrzd.github.io/about1/</guid>
       <description>Yiran (Irene) Wang Personality Summary Energetic and detailed-driven student with strong passion for computer science and solid background in math. Fast learner and hard worker with a strong sense of team commitment.
-EDUCATION Basis Independent Silicon Valley | (2019 - present) Junior
-1290 Parkmoor Ave, San Jose, CA 95126
-College Board School Code: 054776
-Cumulative GPA: 4.00
-Weighted GPA: 4.69
-Credits Earned: 19.50
-HONORS &amp;amp; COLLEGE COURSES Senior Year
-&amp;hellip;</description>
+EDUCATION University of Texas at Austin| (2023 - 2027 expected) B.S. in Turing Scholars Computer Science Honors Program
+Honors Data Structure
+Honors Discrete Math Computer Science
+Probability I
+Differential Equation with Linear Algebra
+Basis Independent Silicon Valley | (2019 - present) Junior</description>
     </item>
     
     <item>
-      <title>About ME 2.0</title>
-      <link>https://ireneyrzd.github.io/about2/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>Math Counts Handout - Mixed Problems</title>
+      <link>https://ireneyrzd.github.io/post/mc21-h6/</link>
+      <pubDate>Sun, 20 Nov 2022 12:00:00 +0000</pubDate>
       
-      <guid>https://ireneyrzd.github.io/about2/</guid>
-      <description>Who am I?
-In About ME 1.0, you learned about my academic endeavors and my formal extracurricular pursues. But, what, really do I enjoy doing besides those &amp;ldquo;formal accomplishments&amp;rdquo;, and what really do I look like outside of that little circle of my face shown in my portrait (cough cough totally not photoshopped).
-Hi, My name is Wang Yi Ran. My name is also Irene Wang. I am 5 feet 6 tall (a height that is convenient for volleyball and helping my mom reach for stuff on the shelf, a height that I am proud of but just ) I was born in the metropolitan center of China - Shanghai, and showered in its culture and tradition for the first century of my life.</description>
+      <guid>https://ireneyrzd.github.io/post/mc21-h6/</guid>
+      <description>Advanced Series
+Previous Next &amp;nbsp; &amp;nbsp; Page: / </description>
     </item>
     
     <item>
-      <title>March 2022 Week 1</title>
+      <title>Chem test and thoughts</title>
       <link>https://ireneyrzd.github.io/post/mar-week-1/</link>
-      <pubDate>Mon, 28 Feb 2022 12:00:00 +0000</pubDate>
+      <pubDate>Sat, 09 Apr 2022 12:00:00 +0000</pubDate>
       
       <guid>https://ireneyrzd.github.io/post/mar-week-1/</guid>
-      <description>First week back to school from Ski Break!
-February 28, 2022 Vocabs  tenacious: stubbornly unyielding loquacious: extremely talkative pragmatic: concerned with practical matters mercurial: liable to sudden unpredicatable change anachronism: something out of place in time  </description>
+      <description>Yesterday</description>
     </item>
     
     <item>
@@ -70,7 +66,7 @@ February 28, 2022 Vocabs  tenacious: stubbornly unyielding loquacious: extremely
       
       <guid>https://ireneyrzd.github.io/post/mc21-h5/</guid>
       <description>Advanced Series
-  #the-canvas { border: 1px solid black; direction: ltr; width: 100%; height: auto; display: none; } #paginator { display: none; text-align: center; margin-bottom: 10px; } #loadingWrapper { display: none; justify-content: center; align-items: center; width: 100%; height: 350px; } #loading { display: inline-block; width: 50px; height: 50px; border: 3px solid #d2d0d0;; border-radius: 50%; border-top-color: #383838; animation: spin 1s ease-in-out infinite; -webkit-animation: spin 1s ease-in-out infinite; } @keyframes spin { to { -webkit-transform: rotate(360deg); } } @-webkit-keyframes spin { to { -webkit-transform: rotate(360deg); } }  Previous Next &amp;nbsp; &amp;nbsp; Page:  /       window.</description>
+Previous Next &amp;nbsp; &amp;nbsp; Page: / </description>
     </item>
     
     <item>
@@ -81,7 +77,7 @@ February 28, 2022 Vocabs  tenacious: stubbornly unyielding loquacious: extremely
       <guid>https://ireneyrzd.github.io/post/jan-week-1/</guid>
       <description>First day of school today, it was really nice seeing friends and teachers today. Also this week is Student Appriciation Week and I got a cool BISV canvas bag. It was really nice seeing everyone walk around campus with their bag
 Jan 4, 2022
- 5:45 got home 5:45 - 6:00 reviewed material for Math Counts session 6:00 - 7:00 BISV Math Counts review session 5, I talked about advanced topic such as mass points, advanced probablity, and intersecting chords/secants and other circle topics 7:30 - 8:00 ate dinner, mommy cooked delicious fried yellow croaker, played with brother  Jan 5, 2022</description>
+5:45 got home 5:45 - 6:00 reviewed material for Math Counts session 6:00 - 7:00 BISV Math Counts review session 5, I talked about advanced topic such as mass points, advanced probablity, and intersecting chords/secants and other circle topics 7:30 - 8:00 ate dinner, mommy cooked delicious fried yellow croaker, played with brother Jan 5, 2022</description>
     </item>
     
     <item>
@@ -91,9 +87,10 @@ Jan 4, 2022
       
       <guid>https://ireneyrzd.github.io/post/2022-resolutions/</guid>
       <description>2021 Reflection
- Proud  SRA Lots of progress in CS learning and projects Spent lots of value time with brother   Not Proud  Not very time efficient Not satisfied with AP scores    2022
- Last 2 year of high school Time of college admission!!!  Goals
- All 5 on AP  which still need some work so heres a daily plan/goal for myself</description>
+Proud SRA Lots of progress in CS learning and projects Spent lots of value time with brother Not Proud Not very time efficient Not satisfied with AP scores 2022
+Last 2 year of high school Time of college admission!!! Goals
+All 5 on AP which still need some work so heres a daily plan/goal for myself
+15 daily exercising/stretching 20 min French - read 1 Le Monde article, 5 vocab words and 5 sentences summary 20 min Lit - learn 10 new word (5 min), read some classics (15 min) 20 min Math - ≥5 problems in high AMC 12 - high AIME level </description>
     </item>
     
     <item>
@@ -103,10 +100,10 @@ Jan 4, 2022
       
       <guid>https://ireneyrzd.github.io/post/ai-and-music/</guid>
       <description>Professor Roger B. Dannenberg
-  Co-creator of Audacity! Future in AI and Music
-  Humans are driven by an innate desire to achieve automation, this includes the field of music
-  Three main areas of exploration
- create sound  Generate new type of sound by incorporating computer to make new instruments  Example  Utilize robotics to preform instruments Create electronic instruments such as electric piano and guitar       create music  Computer-generated music score   re-create and extend music performance practice  By inputting a huge database of repertoires by a certain composer and using a machine learning model to have the computer “learn” the style of the composer and to create music in the style of deceased artists      Combination of performance model and instrument model to create performances from music scores.</description>
+Co-creator of Audacity! Future in AI and Music
+Humans are driven by an innate desire to achieve automation, this includes the field of music
+Three main areas of exploration
+create sound Generate new type of sound by incorporating computer to make new instruments Example Utilize robotics to preform instruments Create electronic instruments such as electric piano and guitar create music Computer-generated music score re-create and extend music performance practice By inputting a huge database of repertoires by a certain composer and using a machine learning model to have the computer “learn” the style of the composer and to create music in the style of deceased artists Combination of performance model and instrument model to create performances from music scores.</description>
     </item>
     
     <item>
@@ -126,8 +123,8 @@ Over the course of three month, my group and I put together a natural language p
       
       <guid>https://ireneyrzd.github.io/post/french-rev-xmas/</guid>
       <description>Last day of school before christmas break, my AP World History: Modern teacher challenged us to wear an Ugly Christmas Sweatshirt with props from the French Revolution attached to it. I
-  Liberty cap - revolution uniform worn by the Paris residents to represent their loyalty to the revolution that symbolizes freedom and liberty.
-  ricolor cockade - the three colors of France, red, white, and blue, that became the official symbol of the revolution and represent the three estates of French society.</description>
+Liberty cap - revolution uniform worn by the Paris residents to represent their loyalty to the revolution that symbolizes freedom and liberty.
+ricolor cockade - the three colors of France, red, white, and blue, that became the official symbol of the revolution and represent the three estates of French society.</description>
     </item>
     
     <item>
@@ -137,7 +134,7 @@ Over the course of three month, my group and I put together a natural language p
       
       <guid>https://ireneyrzd.github.io/post/mc21-h2/</guid>
       <description>Beginner Series
-  #the-canvas { border: 1px solid black; direction: ltr; width: 100%; height: auto; display: none; } #paginator { display: none; text-align: center; margin-bottom: 10px; } #loadingWrapper { display: none; justify-content: center; align-items: center; width: 100%; height: 350px; } #loading { display: inline-block; width: 50px; height: 50px; border: 3px solid #d2d0d0;; border-radius: 50%; border-top-color: #383838; animation: spin 1s ease-in-out infinite; -webkit-animation: spin 1s ease-in-out infinite; } @keyframes spin { to { -webkit-transform: rotate(360deg); } } @-webkit-keyframes spin { to { -webkit-transform: rotate(360deg); } }  Previous Next &amp;nbsp; &amp;nbsp; Page:  /       window.</description>
+Previous Next &amp;nbsp; &amp;nbsp; Page: / </description>
     </item>
     
     <item>
@@ -147,7 +144,7 @@ Over the course of three month, my group and I put together a natural language p
       
       <guid>https://ireneyrzd.github.io/post/gut-practice/</guid>
       <description>A set of practice Guts Round questions, curated toward HMMT and BMT
-  #the-canvas { border: 1px solid black; direction: ltr; width: 100%; height: auto; display: none; } #paginator { display: none; text-align: center; margin-bottom: 10px; } #loadingWrapper { display: none; justify-content: center; align-items: center; width: 100%; height: 350px; } #loading { display: inline-block; width: 50px; height: 50px; border: 3px solid #d2d0d0;; border-radius: 50%; border-top-color: #383838; animation: spin 1s ease-in-out infinite; -webkit-animation: spin 1s ease-in-out infinite; } @keyframes spin { to { -webkit-transform: rotate(360deg); } } @-webkit-keyframes spin { to { -webkit-transform: rotate(360deg); } }  Previous Next &amp;nbsp; &amp;nbsp; Page:  /       window.</description>
+Previous Next &amp;nbsp; &amp;nbsp; Page: / </description>
     </item>
     
     <item>
@@ -157,7 +154,7 @@ Over the course of three month, my group and I put together a natural language p
       
       <guid>https://ireneyrzd.github.io/post/mc21-h1/</guid>
       <description>Beginner Series
-  #the-canvas { border: 1px solid black; direction: ltr; width: 100%; height: auto; display: none; } #paginator { display: none; text-align: center; margin-bottom: 10px; } #loadingWrapper { display: none; justify-content: center; align-items: center; width: 100%; height: 350px; } #loading { display: inline-block; width: 50px; height: 50px; border: 3px solid #d2d0d0;; border-radius: 50%; border-top-color: #383838; animation: spin 1s ease-in-out infinite; -webkit-animation: spin 1s ease-in-out infinite; } @keyframes spin { to { -webkit-transform: rotate(360deg); } } @-webkit-keyframes spin { to { -webkit-transform: rotate(360deg); } }  Previous Next &amp;nbsp; &amp;nbsp; Page:  /       window.</description>
+Previous Next &amp;nbsp; &amp;nbsp; Page: / </description>
     </item>
     
     <item>
@@ -167,7 +164,7 @@ Over the course of three month, my group and I put together a natural language p
       
       <guid>https://ireneyrzd.github.io/post/mc20-h1/</guid>
       <description>Beginner Series
-  #the-canvas { border: 1px solid black; direction: ltr; width: 100%; height: auto; display: none; } #paginator { display: none; text-align: center; margin-bottom: 10px; } #loadingWrapper { display: none; justify-content: center; align-items: center; width: 100%; height: 350px; } #loading { display: inline-block; width: 50px; height: 50px; border: 3px solid #d2d0d0;; border-radius: 50%; border-top-color: #383838; animation: spin 1s ease-in-out infinite; -webkit-animation: spin 1s ease-in-out infinite; } @keyframes spin { to { -webkit-transform: rotate(360deg); } } @-webkit-keyframes spin { to { -webkit-transform: rotate(360deg); } }  Previous Next &amp;nbsp; &amp;nbsp; Page:  /       window.</description>
+Previous Next &amp;nbsp; &amp;nbsp; Page: / </description>
     </item>
     
     <item>
@@ -177,7 +174,7 @@ Over the course of three month, my group and I put together a natural language p
       
       <guid>https://ireneyrzd.github.io/post/mc20-h5/</guid>
       <description>Advanced Series
-  #the-canvas { border: 1px solid black; direction: ltr; width: 100%; height: auto; display: none; } #paginator { display: none; text-align: center; margin-bottom: 10px; } #loadingWrapper { display: none; justify-content: center; align-items: center; width: 100%; height: 350px; } #loading { display: inline-block; width: 50px; height: 50px; border: 3px solid #d2d0d0;; border-radius: 50%; border-top-color: #383838; animation: spin 1s ease-in-out infinite; -webkit-animation: spin 1s ease-in-out infinite; } @keyframes spin { to { -webkit-transform: rotate(360deg); } } @-webkit-keyframes spin { to { -webkit-transform: rotate(360deg); } }  Previous Next &amp;nbsp; &amp;nbsp; Page:  /       window.</description>
+Previous Next &amp;nbsp; &amp;nbsp; Page: / </description>
     </item>
     
     <item>
@@ -235,7 +232,7 @@ Below are some of my project brainstorm ideas as well as how they can fulfill th
       
       <guid>https://ireneyrzd.github.io/post/musicnet-brainstorm-and-analysis/</guid>
       <description>If you look at my other post (SRA Experience Recap 7/26), the current music generation models can be improved to become more customizable if a dataset with specific labels is created. Then, when a user prompts for a certain characteristic as input, only songs with corresponding tags would be fed into the training model, and the output result would follow the desire of the user.
-Possible Labels to the MusicNet datasets  Composer Musical period (eg.</description>
+Possible Labels to the MusicNet datasets Composer Musical period (eg.</description>
     </item>
     
     <item>
@@ -255,7 +252,7 @@ Possible Labels to the MusicNet datasets  Composer Musical period (eg.</descript
       <guid>https://ireneyrzd.github.io/post/favorite-holiday/</guid>
       <description>My favorite holiday is:
 Halloween!!
- You can reflect on what was your favorite character in the past year Share bondings with friends as you discuss whether you want to make a group costume together and make plans for trick or treat A demonstration of school spirit during our annual parade showcasing our costume around campus During October leading up to Halloween, I can use the promise of taking him trick-or-treating as a bribe to my little brother to listen to me.</description>
+You can reflect on what was your favorite character in the past year Share bondings with friends as you discuss whether you want to make a group costume together and make plans for trick or treat A demonstration of school spirit during our annual parade showcasing our costume around campus During October leading up to Halloween, I can use the promise of taking him trick-or-treating as a bribe to my little brother to listen to me.</description>
     </item>
     
     <item>
@@ -265,7 +262,7 @@ Halloween!!
       
       <guid>https://ireneyrzd.github.io/post/linux-learning1-git-push/</guid>
       <description>What is Hugo? To push changes of website from .md to github through git First time:
-1. git init 2. git add . 3. git status 4. git commit -m &amp;quot;first commit&amp;quot; 5. git branch -M main 6. git remote add origin https://github.com/ireneyrzd/Homepage.git 7. git push -u origin main After origin and main has been initialized:
+1. git init 2. git add . 3. git status 4. git commit -m &amp;#34;first commit&amp;#34; 5. git branch -M main 6. git remote add origin https://github.com/ireneyrzd/Homepage.git 7. git push -u origin main After origin and main has been initialized:
 1. git status 2. git add &amp;lt;file&amp;gt; 3. git rm &amp;lt;file&amp;gt; 4. git status 5.</description>
     </item>
     

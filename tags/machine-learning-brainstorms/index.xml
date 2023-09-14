@@ -14,10 +14,10 @@
       
       <guid>https://ireneyrzd.github.io/post/ai-and-music/</guid>
       <description>Professor Roger B. Dannenberg
-  Co-creator of Audacity! Future in AI and Music
-  Humans are driven by an innate desire to achieve automation, this includes the field of music
-  Three main areas of exploration
- create sound  Generate new type of sound by incorporating computer to make new instruments  Example  Utilize robotics to preform instruments Create electronic instruments such as electric piano and guitar       create music  Computer-generated music score   re-create and extend music performance practice  By inputting a huge database of repertoires by a certain composer and using a machine learning model to have the computer “learn” the style of the composer and to create music in the style of deceased artists      Combination of performance model and instrument model to create performances from music scores.</description>
+Co-creator of Audacity! Future in AI and Music
+Humans are driven by an innate desire to achieve automation, this includes the field of music
+Three main areas of exploration
+create sound Generate new type of sound by incorporating computer to make new instruments Example Utilize robotics to preform instruments Create electronic instruments such as electric piano and guitar create music Computer-generated music score re-create and extend music performance practice By inputting a huge database of repertoires by a certain composer and using a machine learning model to have the computer “learn” the style of the composer and to create music in the style of deceased artists Combination of performance model and instrument model to create performances from music scores.</description>
     </item>
     
     <item>
@@ -66,7 +66,7 @@ Below are some of my project brainstorm ideas as well as how they can fulfill th
       
       <guid>https://ireneyrzd.github.io/post/musicnet-brainstorm-and-analysis/</guid>
       <description>If you look at my other post (SRA Experience Recap 7/26), the current music generation models can be improved to become more customizable if a dataset with specific labels is created. Then, when a user prompts for a certain characteristic as input, only songs with corresponding tags would be fed into the training model, and the output result would follow the desire of the user.
-Possible Labels to the MusicNet datasets  Composer Musical period (eg.</description>
+Possible Labels to the MusicNet datasets Composer Musical period (eg.</description>
     </item>
     
   </channel>

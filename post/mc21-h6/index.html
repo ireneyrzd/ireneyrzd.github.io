@@ -6,7 +6,7 @@
   	<meta name="description" content="">
   	<meta name="author"      content="map[]">
     
-    	<title>5. BISV Math Circle </title>
+    	<title>Math Counts Handout - Mixed Problems</title>
 	<link rel="shortcut icon" href="https://ireneyrzd.github.io/images/Irene_favicon.png">
 
 	
@@ -103,22 +103,209 @@
 					<header class="entry-header">
  						<div class="entry-meta">
                <span class="posted-on">
-                  <time class="entry-date published" datetime="June 10, 1011">January 1, 0001</time>
+                  <time class="entry-date published" datetime="June 110, 202011">November 20, 2022</time>
                </span>
  						</div>
- 						<h1 class="entry-title"><a href="https://ireneyrzd.github.io/home/services/math/" rel="bookmark">5. BISV Math Circle </a></h1>
+ 						<h1 class="entry-title"><a href="https://ireneyrzd.github.io/post/mc21-h6/" rel="bookmark">Math Counts Handout - Mixed Problems</a></h1>
 					</header>
 					<div class="entry-content">
-						<p>Some worksheets that I wrote for BISV high school and middle school circles.</p>
-<p>Activities that I have helped hold:</p>
-<ul>
-<li>practice gut rounds for HMMT and BMT</li>
-<li>math clinics to discuss challenge and competition questions</li>
-<li>math counts handouts and workshops for lower school students</li>
-<li>manage club discord server and profile</li>
-<li>promoting competitive math at all levels within the school community&hellip;</li>
-</ul>
-<p>See here: <a href="https://ireneyrzd.github.io/tags/math/">https://ireneyrzd.github.io/tags/math/</a></p>
+						<p>Advanced Series</p>
+<script type="text/javascript" src= '/js/pdf-js/build/pdf.js'></script>
+<style>
+#the-canvas {
+  border: 1px solid black;
+  direction: ltr;
+  width: 100%;
+  height: auto;
+  display: none;
+}
+
+#paginator {
+  display: none;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#loadingWrapper {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 350px;
+}
+
+#loading {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border: 3px solid #d2d0d0;;
+  border-radius: 50%;
+  border-top-color: #383838;
+  animation: spin 1s ease-in-out infinite;
+  -webkit-animation: spin 1s ease-in-out infinite;
+}
+
+@keyframes spin {
+  to { -webkit-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+  to { -webkit-transform: rotate(360deg); }
+}
+</style>
+
+<div id="paginator">
+    <button id="prev">Previous</button>
+    <button id="next">Next</button>
+    &nbsp; &nbsp;
+    <span>Page: <span id="page_num"></span> / <span id="page_count"></span></span>
+</div>
+<div id="embed-pdf-container">
+    <div id="loadingWrapper">
+      <div id="loading"></div>
+    </div>
+    <canvas id="the-canvas"></canvas>
+</div>
+
+<script type="text/javascript">
+window.onload = function() {
+
+
+var url = "https:\/\/ireneyrzd.github.io" + '\/pdf\/Math\/MC_21_Handout_6.pdf';
+
+var hidePaginator = "" === "true";
+var hideLoader = "" === "true";
+var selectedPageNum = parseInt("") || 1;
+
+
+var pdfjsLib = window['pdfjs-dist/build/pdf'];
+
+
+pdfjsLib.GlobalWorkerOptions.workerSrc = "https:\/\/ireneyrzd.github.io" + '/js/pdf-js/build/pdf.worker.js';
+
+
+var pdfDoc = null,
+    pageNum = selectedPageNum,
+    pageRendering = false,
+    pageNumPending = null,
+    scale = 3,
+    canvas = document.getElementById('the-canvas'),
+    ctx = canvas.getContext('2d'),
+    paginator = document.getElementById("paginator"),
+    loadingWrapper = document.getElementById('loadingWrapper');
+
+
+
+showPaginator();
+showLoader();
+
+
+
+function renderPage(num) {
+  pageRendering = true;
+  
+  pdfDoc.getPage(num).then(function(page) {
+    var viewport = page.getViewport({scale: scale});
+    canvas.height = viewport.height;
+    canvas.width = viewport.width;
+
+    
+    var renderContext = {
+      canvasContext: ctx,
+      viewport: viewport
+    };
+    var renderTask = page.render(renderContext);
+
+    
+    renderTask.promise.then(function() {
+      pageRendering = false;
+      showContent();
+      
+      if (pageNumPending !== null) {
+        
+        renderPage(pageNumPending);
+        pageNumPending = null;
+      }
+    });
+  });
+
+  
+  document.getElementById('page_num').textContent = num;
+}
+
+
+
+function showContent() {
+  loadingWrapper.style.display = 'none';
+  canvas.style.display = 'block';
+}
+
+
+
+function showLoader() {
+  if(hideLoader) return
+  loadingWrapper.style.display = 'flex';
+  canvas.style.display = 'none';
+}
+
+
+
+function showPaginator() {
+  if(hidePaginator) return
+  paginator.style.display = 'block';
+}
+
+
+
+function queueRenderPage(num) {
+  if (pageRendering) {
+    pageNumPending = num;
+  } else {
+    renderPage(num);
+  }
+}
+
+
+
+function onPrevPage() {
+  if (pageNum <= 1) {
+    return;
+  }
+  pageNum--;
+  queueRenderPage(pageNum);
+}
+document.getElementById('prev').addEventListener('click', onPrevPage);
+
+
+
+function onNextPage() {
+  if (pageNum >= pdfDoc.numPages) {
+    return;
+  }
+  pageNum++;
+  queueRenderPage(pageNum);
+}
+document.getElementById('next').addEventListener('click', onNextPage);
+
+
+
+pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
+  pdfDoc = pdfDoc_;
+  var numPages = pdfDoc.numPages;
+  document.getElementById('page_count').textContent = numPages;
+  
+  
+  if(pageNum > numPages) {
+    pageNum = numPages
+  }
+
+  
+  renderPage(pageNum);
+});
+}
+
+</script>
+
+
 					</div>
 				</article>
 
@@ -130,6 +317,40 @@
 
 				<div id="share">
 					
+							<div class="row">
+    <div class="col-xs-12 col-sm-offset-1 col-sm-10 col-md-offset-2 col-md-8">
+        
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+                    <div data-network="" data-title=" >> " class="st-custom-button"> <i class="fab fa-github fa-2x"></i> </div>
+                
+            
+                
+                    <div data-network="" data-title=" >> " class="st-custom-button"> <i class="fab fa-youtube fa-2x"></i> </div>
+                
+            
+                
+                    <div data-network="email" data-title=" >> " class="st-custom-button"> <i class="fas fa-envelope-square fa-2x"></i> </div>
+                
+            
+            <div data-network="sharethis" data-title="Math Counts Handout - Mixed Problems >> " class="st-custom-button"> <i class="fas fa-share-alt-square fa-2x"></i> </div>
+        
+    </div>
+</div> 
+
+					
 				</div>
 			</div>
 		</div> 
@@ -139,6 +360,23 @@
 			<div class="col-sm-8 col-sm-offset-2">
 
 				<div id="comments">
+					
+							<div id="disqus_thread"></div>
+<script>
+
+
+
+
+
+(function() { 
+var d = document, s = d.createElement('script');
+s.src = 'https:///embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
 					
 				</div>
 			</div>
